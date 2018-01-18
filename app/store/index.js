@@ -1,9 +1,8 @@
 // store/configureStore.js
 
 import { createStore, applyMiddleware, compose } from "redux";
-import reducers from "../reducers/index";
-import createLogger from "redux-logger";
 import promiseMiddleware from "redux-promise-middleware";
+import reducers from "../reducers/index";
 
 const middlewares = [promiseMiddleware()];
 
@@ -12,7 +11,7 @@ if (process.env.NODE_ENV === `development`) {
   middlewares.push(logger);
 }
 
-const store = (configureStore = () => {
+const noteStore = (configureStore = () => {
   const enhancer = compose(applyMiddleware(...middlewares));
   const store = createStore(reducers, {}, enhancer);
 
@@ -25,4 +24,4 @@ const store = (configureStore = () => {
   return store;
 });
 
-export default store;
+export default noteStore;

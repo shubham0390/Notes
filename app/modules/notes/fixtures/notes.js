@@ -1,5 +1,5 @@
-export default (notes = [  
-    {  
+export default (notes = [
+    {
        "id":1,
        "title":"Synergistic upward-trending open architecture",
        "description":"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
@@ -8,7 +8,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":2,
        "title":"Universal foreground project",
        "description":"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
@@ -17,7 +17,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":3,
        "title":"Distributed didactic software",
        "description":"Donec posuere metus vitae ipsum.",
@@ -26,7 +26,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":4,
        "title":"Down-sized foreground productivity",
        "description":"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
@@ -35,7 +35,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":5,
        "title":"Balanced didactic hierarchy",
        "description":"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",
@@ -44,7 +44,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":6,
        "title":"Streamlined encompassing attitude",
        "description":"Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
@@ -53,7 +53,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":7,
        "title":"Multi-tiered system-worthy analyzer",
        "description":"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.",
@@ -62,7 +62,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":8,
        "title":"Operative impactful model",
        "description":"Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",
@@ -71,7 +71,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":9,
        "title":"Phased even-keeled knowledge base",
        "description":"Aenean sit amet justo.",
@@ -80,7 +80,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":10,
        "title":"Switchable asymmetric forecast",
        "description":"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
@@ -89,7 +89,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":11,
        "title":"Optional context-sensitive strategy",
        "description":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
@@ -98,7 +98,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":12,
        "title":"Open-architected explicit parallelism",
        "description":"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
@@ -107,7 +107,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":13,
        "title":"Fully-configurable uniform circuit",
        "description":"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
@@ -116,7 +116,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":14,
        "title":"Balanced real-time interface",
        "description":"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
@@ -125,7 +125,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":15,
        "title":"Visionary analyzing attitude",
        "description":"In eleifend quam a odio.",
@@ -134,7 +134,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":16,
        "title":"Future-proofed interactive groupware",
        "description":"In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
@@ -143,7 +143,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":17,
        "title":"Enterprise-wide holistic firmware",
        "description":"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
@@ -152,7 +152,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":18,
        "title":"Organic next generation product",
        "description":"Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
@@ -161,7 +161,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":19,
        "title":"Organic web-enabled capacity",
        "description":"Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
@@ -170,7 +170,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":20,
        "title":"Horizontal multimedia orchestration",
        "description":"Sed ante. Vivamus tortor. Duis mattis egestas metus.",
@@ -179,7 +179,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":21,
        "title":"Profound zero tolerance superstructure",
        "description":"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
@@ -188,7 +188,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":22,
        "title":"Decentralized web-enabled encryption",
        "description":"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
@@ -197,7 +197,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":23,
        "title":"Switchable hybrid matrix",
        "description":"Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.",
@@ -206,7 +206,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":24,
        "title":"Optimized full-range algorithm",
        "description":"Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
@@ -215,7 +215,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":25,
        "title":"Advanced mission-critical hardware",
        "description":"In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
@@ -224,7 +224,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":26,
        "title":"Cross-group well-modulated strategy",
        "description":"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",
@@ -233,7 +233,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":27,
        "title":"Multi-channelled tangible budgetary management",
        "description":"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",
@@ -242,7 +242,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":28,
        "title":"Synergistic transitional portal",
        "description":"Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
@@ -251,7 +251,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":29,
        "title":"Object-based leading edge monitoring",
        "description":"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
@@ -260,7 +260,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":30,
        "title":"Re-contextualized regional artificial intelligence",
        "description":"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
@@ -269,7 +269,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":31,
        "title":"Robust 4th generation matrix",
        "description":"Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
@@ -278,7 +278,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":32,
        "title":"Integrated full-range array",
        "description":"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
@@ -287,7 +287,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":33,
        "title":"Profit-focused zero administration toolset",
        "description":"Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
@@ -296,7 +296,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":34,
        "title":"Automated foreground data-warehouse",
        "description":"Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
@@ -305,7 +305,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":35,
        "title":"Front-line 4th generation website",
        "description":"Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
@@ -314,7 +314,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":36,
        "title":"Operative reciprocal moderator",
        "description":"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
@@ -323,7 +323,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":37,
        "title":"Re-contextualized object-oriented internet solution",
        "description":"Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
@@ -332,7 +332,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":38,
        "title":"Multi-channelled user-facing matrices",
        "description":"In hac habitasse platea dictumst.",
@@ -341,7 +341,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":39,
        "title":"Stand-alone mobile software",
        "description":"Curabitur at ipsum ac tellus semper interdum.",
@@ -350,7 +350,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":40,
        "title":"Diverse explicit functionalities",
        "description":"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.",
@@ -359,7 +359,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":41,
        "title":"Sharable discrete software",
        "description":"Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
@@ -368,7 +368,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":42,
        "title":"Reduced full-range migration",
        "description":"Phasellus in felis. Donec semper sapien a libero.",
@@ -377,7 +377,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":43,
        "title":"Devolved coherent protocol",
        "description":"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
@@ -386,7 +386,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":44,
        "title":"Extended tertiary service-desk",
        "description":"In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.",
@@ -395,7 +395,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":45,
        "title":"Quality-focused executive hierarchy",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
@@ -404,7 +404,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":46,
        "title":"Upgradable real-time intranet",
        "description":"In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.",
@@ -413,7 +413,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":47,
        "title":"Team-oriented next generation protocol",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
@@ -422,7 +422,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":48,
        "title":"Profit-focused empowering flexibility",
        "description":"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
@@ -431,7 +431,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":49,
        "title":"Fundamental logistical matrix",
        "description":"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
@@ -440,7 +440,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":50,
        "title":"Realigned bottom-line hub",
        "description":"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.",
@@ -449,7 +449,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":51,
        "title":"Diverse motivating instruction set",
        "description":"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",
@@ -458,7 +458,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":52,
        "title":"Diverse secondary moratorium",
        "description":"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",
@@ -467,7 +467,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":53,
        "title":"Business-focused disintermediate website",
        "description":"Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.",
@@ -476,7 +476,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":54,
        "title":"De-engineered 4th generation matrix",
        "description":"Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
@@ -485,7 +485,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":55,
        "title":"Multi-channelled 3rd generation software",
        "description":"Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
@@ -494,7 +494,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":56,
        "title":"Self-enabling maximized moratorium",
        "description":"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
@@ -503,7 +503,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":57,
        "title":"Mandatory actuating access",
        "description":"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
@@ -512,7 +512,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":58,
        "title":"Secured reciprocal support",
        "description":"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
@@ -521,7 +521,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":59,
        "title":"Programmable global productivity",
        "description":"Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -530,7 +530,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":60,
        "title":"Programmable encompassing model",
        "description":"In hac habitasse platea dictumst.",
@@ -539,7 +539,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":61,
        "title":"Secured composite paradigm",
        "description":"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
@@ -548,7 +548,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":62,
        "title":"Phased grid-enabled product",
        "description":"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.",
@@ -557,7 +557,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":63,
        "title":"Profit-focused needs-based implementation",
        "description":"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.",
@@ -566,7 +566,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":64,
        "title":"Switchable uniform alliance",
        "description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
@@ -575,7 +575,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":65,
        "title":"Business-focused multimedia hub",
        "description":"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
@@ -584,7 +584,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":66,
        "title":"Persistent motivating alliance",
        "description":"Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
@@ -593,7 +593,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":67,
        "title":"Function-based multi-tasking website",
        "description":"Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
@@ -602,7 +602,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":68,
        "title":"Quality-focused grid-enabled workforce",
        "description":"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
@@ -611,7 +611,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":69,
        "title":"Mandatory multi-tasking productivity",
        "description":"Vivamus vel nulla eget eros elementum pellentesque.",
@@ -620,7 +620,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":70,
        "title":"Realigned leading edge analyzer",
        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -629,7 +629,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":71,
        "title":"Reduced fresh-thinking attitude",
        "description":"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
@@ -638,7 +638,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":72,
        "title":"Digitized human-resource protocol",
        "description":"Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
@@ -647,7 +647,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":73,
        "title":"Up-sized hybrid core",
        "description":"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
@@ -656,7 +656,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":74,
        "title":"Organic local Graphic Interface",
        "description":"Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
@@ -665,7 +665,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":75,
        "title":"Focused eco-centric matrix",
        "description":"Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
@@ -674,7 +674,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":76,
        "title":"Up-sized methodical Graphical User Interface",
        "description":"Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.",
@@ -683,7 +683,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":77,
        "title":"Front-line bandwidth-monitored project",
        "description":"Vivamus vel nulla eget eros elementum pellentesque.",
@@ -692,7 +692,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":78,
        "title":"Exclusive clear-thinking utilisation",
        "description":"Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.",
@@ -701,7 +701,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":79,
        "title":"Balanced web-enabled strategy",
        "description":"Nullam sit amet turpis elementum ligula vehicula consequat.",
@@ -710,7 +710,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":80,
        "title":"Customer-focused methodical conglomeration",
        "description":"Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.",
@@ -719,7 +719,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":81,
        "title":"Customizable uniform circuit",
        "description":"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
@@ -728,7 +728,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":82,
        "title":"Advanced systemic solution",
        "description":"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.",
@@ -737,7 +737,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":83,
        "title":"Polarised homogeneous application",
        "description":"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
@@ -746,7 +746,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":84,
        "title":"Adaptive zero tolerance support",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -755,7 +755,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":85,
        "title":"Optimized multi-state secured line",
        "description":"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.",
@@ -764,7 +764,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":86,
        "title":"Implemented client-server open architecture",
        "description":"Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",
@@ -773,7 +773,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":87,
        "title":"Business-focused value-added benchmark",
        "description":"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
@@ -782,7 +782,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":88,
        "title":"Organized analyzing benchmark",
        "description":"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
@@ -791,7 +791,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":89,
        "title":"Intuitive client-driven hierarchy",
        "description":"Vivamus vel nulla eget eros elementum pellentesque.",
@@ -800,7 +800,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":90,
        "title":"Progressive web-enabled internet solution",
        "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
@@ -809,7 +809,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":91,
        "title":"Business-focused zero administration solution",
        "description":"Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
@@ -818,7 +818,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":92,
        "title":"Multi-channelled scalable time-frame",
        "description":"Aliquam quis turpis eget elit sodales scelerisque.",
@@ -827,7 +827,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":93,
        "title":"Open-source static algorithm",
        "description":"Integer ac neque.",
@@ -836,7 +836,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":94,
        "title":"Quality-focused empowering framework",
        "description":"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
@@ -845,7 +845,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":95,
        "title":"Customer-focused object-oriented adapter",
        "description":"Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
@@ -854,7 +854,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":96,
        "title":"Self-enabling incremental artificial intelligence",
        "description":"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
@@ -863,7 +863,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":97,
        "title":"Virtual bandwidth-monitored toolset",
        "description":"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
@@ -872,7 +872,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":98,
        "title":"Switchable needs-based algorithm",
        "description":"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
@@ -881,7 +881,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":99,
        "title":"Mandatory heuristic toolset",
        "description":"Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
@@ -890,7 +890,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":100,
        "title":"Innovative secondary policy",
        "description":"Nulla mollis molestie lorem. Quisque ut erat.",
@@ -899,7 +899,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":101,
        "title":"Digitized encompassing customer loyalty",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
@@ -908,7 +908,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":102,
        "title":"Quality-focused intermediate open system",
        "description":"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
@@ -917,7 +917,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":103,
        "title":"Adaptive 3rd generation interface",
        "description":"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
@@ -926,7 +926,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":104,
        "title":"Persistent bi-directional contingency",
        "description":"Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.",
@@ -935,7 +935,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":105,
        "title":"Advanced fresh-thinking Graphical User Interface",
        "description":"Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",
@@ -944,7 +944,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":106,
        "title":"Grass-roots national task-force",
        "description":"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.",
@@ -953,7 +953,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":107,
        "title":"Re-contextualized upward-trending concept",
        "description":"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
@@ -962,7 +962,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":108,
        "title":"Implemented global throughput",
        "description":"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",
@@ -971,7 +971,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":109,
        "title":"Profit-focused systemic moderator",
        "description":"Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
@@ -980,7 +980,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":110,
        "title":"Stand-alone optimizing encoding",
        "description":"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
@@ -989,7 +989,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":111,
        "title":"Universal attitude-oriented success",
        "description":"Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
@@ -998,7 +998,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":112,
        "title":"Robust explicit migration",
        "description":"Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
@@ -1007,7 +1007,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":113,
        "title":"Synchronised zero tolerance orchestration",
        "description":"Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.",
@@ -1016,7 +1016,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":114,
        "title":"Fully-configurable hybrid Graphic Interface",
        "description":"Donec semper sapien a libero. Nam dui.",
@@ -1025,7 +1025,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":115,
        "title":"Extended bi-directional firmware",
        "description":"Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
@@ -1034,7 +1034,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":116,
        "title":"Team-oriented neutral utilisation",
        "description":"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -1043,7 +1043,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":117,
        "title":"Grass-roots multi-state benchmark",
        "description":"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
@@ -1052,7 +1052,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":118,
        "title":"Open-architected zero defect framework",
        "description":"Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
@@ -1061,7 +1061,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":119,
        "title":"Pre-emptive composite installation",
        "description":"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
@@ -1070,7 +1070,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":120,
        "title":"Upgradable zero tolerance groupware",
        "description":"Mauris ullamcorper purus sit amet nulla.",
@@ -1079,7 +1079,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":121,
        "title":"Right-sized 24 hour workforce",
        "description":"Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
@@ -1088,7 +1088,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":122,
        "title":"Centralized empowering definition",
        "description":"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
@@ -1097,7 +1097,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":123,
        "title":"Universal 6th generation frame",
        "description":"Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
@@ -1106,7 +1106,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":124,
        "title":"Virtual stable secured line",
        "description":"Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
@@ -1115,7 +1115,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":125,
        "title":"Robust systemic focus group",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",
@@ -1124,7 +1124,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":126,
        "title":"Profit-focused mission-critical function",
        "description":"Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -1133,7 +1133,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":127,
        "title":"Streamlined systemic time-frame",
        "description":"Fusce consequat. Nulla nisl.",
@@ -1142,7 +1142,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":128,
        "title":"Ameliorated disintermediate encoding",
        "description":"Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.",
@@ -1151,7 +1151,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":129,
        "title":"Up-sized value-added initiative",
        "description":"Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.",
@@ -1160,7 +1160,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":130,
        "title":"Configurable real-time open system",
        "description":"Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
@@ -1169,7 +1169,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":131,
        "title":"Fully-configurable leading edge secured line",
        "description":"Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.",
@@ -1178,7 +1178,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":132,
        "title":"User-friendly homogeneous strategy",
        "description":"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.",
@@ -1187,7 +1187,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":133,
        "title":"Synchronised full-range flexibility",
        "description":"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
@@ -1196,7 +1196,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":134,
        "title":"Digitized even-keeled emulation",
        "description":"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
@@ -1205,7 +1205,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":135,
        "title":"Right-sized mission-critical utilisation",
        "description":"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
@@ -1214,7 +1214,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":136,
        "title":"Enterprise-wide attitude-oriented algorithm",
        "description":"Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.",
@@ -1223,7 +1223,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":137,
        "title":"Seamless object-oriented synergy",
        "description":"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
@@ -1232,7 +1232,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":138,
        "title":"Total tangible extranet",
        "description":"Etiam justo.",
@@ -1241,7 +1241,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":139,
        "title":"Balanced didactic emulation",
        "description":"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.",
@@ -1250,7 +1250,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":140,
        "title":"Synergistic bi-directional orchestration",
        "description":"Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
@@ -1259,7 +1259,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":141,
        "title":"Synchronised executive website",
        "description":"Proin interdum mauris non ligula pellentesque ultrices.",
@@ -1268,7 +1268,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":142,
        "title":"Object-based 24/7 internet solution",
        "description":"Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",
@@ -1277,7 +1277,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":143,
        "title":"Polarised 24/7 artificial intelligence",
        "description":"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
@@ -1286,7 +1286,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":144,
        "title":"Triple-buffered interactive forecast",
        "description":"Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
@@ -1295,7 +1295,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":145,
        "title":"Integrated maximized attitude",
        "description":"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.",
@@ -1304,7 +1304,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":146,
        "title":"Secured optimal productivity",
        "description":"Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.",
@@ -1313,7 +1313,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":147,
        "title":"Open-architected secondary access",
        "description":"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
@@ -1322,7 +1322,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":148,
        "title":"Programmable explicit function",
        "description":"Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
@@ -1331,7 +1331,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":149,
        "title":"Up-sized coherent collaboration",
        "description":"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
@@ -1340,7 +1340,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":150,
        "title":"Sharable optimizing matrices",
        "description":"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
@@ -1349,7 +1349,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":151,
        "title":"Reactive heuristic pricing structure",
        "description":"Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.",
@@ -1358,7 +1358,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":152,
        "title":"Progressive intermediate archive",
        "description":"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",
@@ -1367,7 +1367,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":153,
        "title":"Polarised well-modulated encoding",
        "description":"Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.",
@@ -1376,7 +1376,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":154,
        "title":"Object-based solution-oriented knowledge user",
        "description":"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
@@ -1385,7 +1385,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":155,
        "title":"Up-sized scalable approach",
        "description":"Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
@@ -1394,7 +1394,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":156,
        "title":"Stand-alone regional protocol",
        "description":"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
@@ -1403,7 +1403,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":157,
        "title":"Customizable bi-directional pricing structure",
        "description":"Vivamus vestibulum sagittis sapien.",
@@ -1412,7 +1412,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":158,
        "title":"Cross-group client-server moratorium",
        "description":"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
@@ -1421,7 +1421,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":159,
        "title":"Mandatory empowering circuit",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
@@ -1430,7 +1430,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":160,
        "title":"Decentralized system-worthy Graphical User Interface",
        "description":"Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
@@ -1439,7 +1439,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":161,
        "title":"Compatible client-driven product",
        "description":"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
@@ -1448,7 +1448,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":162,
        "title":"Triple-buffered value-added structure",
        "description":"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
@@ -1457,7 +1457,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":163,
        "title":"Digitized background utilisation",
        "description":"Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
@@ -1466,7 +1466,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":164,
        "title":"Open-source homogeneous contingency",
        "description":"Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
@@ -1475,7 +1475,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":165,
        "title":"Virtual analyzing ability",
        "description":"Etiam justo.",
@@ -1484,7 +1484,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":166,
        "title":"Customer-focused holistic protocol",
        "description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",
@@ -1493,7 +1493,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":167,
        "title":"Versatile scalable adapter",
        "description":"Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
@@ -1502,7 +1502,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":168,
        "title":"Innovative scalable synergy",
        "description":"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
@@ -1511,7 +1511,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":169,
        "title":"Diverse motivating architecture",
        "description":"Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
@@ -1520,7 +1520,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":170,
        "title":"Programmable maximized functionalities",
        "description":"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
@@ -1529,7 +1529,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":171,
        "title":"Self-enabling explicit data-warehouse",
        "description":"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
@@ -1538,7 +1538,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":172,
        "title":"Virtual disintermediate matrices",
        "description":"Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -1547,7 +1547,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":173,
        "title":"Optimized methodical complexity",
        "description":"Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
@@ -1556,7 +1556,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":174,
        "title":"Assimilated directional conglomeration",
        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",
@@ -1565,7 +1565,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":175,
        "title":"Phased 4th generation frame",
        "description":"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.",
@@ -1574,7 +1574,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":176,
        "title":"Cross-platform discrete migration",
        "description":"Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.",
@@ -1583,7 +1583,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":177,
        "title":"Secured client-server infrastructure",
        "description":"Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -1592,7 +1592,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":178,
        "title":"Seamless bandwidth-monitored hub",
        "description":"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.",
@@ -1601,7 +1601,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":179,
        "title":"Profound systematic functionalities",
        "description":"Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
@@ -1610,7 +1610,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":180,
        "title":"Compatible zero defect moratorium",
        "description":"Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
@@ -1619,7 +1619,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":181,
        "title":"Right-sized asynchronous synergy",
        "description":"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",
@@ -1628,7 +1628,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":182,
        "title":"Polarised next generation internet solution",
        "description":"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
@@ -1637,7 +1637,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":183,
        "title":"Open-architected eco-centric moderator",
        "description":"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
@@ -1646,7 +1646,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":184,
        "title":"Seamless homogeneous utilisation",
        "description":"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.",
@@ -1655,7 +1655,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":185,
        "title":"Profound executive project",
        "description":"Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.",
@@ -1664,7 +1664,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":186,
        "title":"Sharable needs-based array",
        "description":"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
@@ -1673,7 +1673,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":187,
        "title":"Integrated content-based info-mediaries",
        "description":"Suspendisse potenti.",
@@ -1682,7 +1682,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":188,
        "title":"Programmable clear-thinking adapter",
        "description":"Proin risus.",
@@ -1691,7 +1691,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":189,
        "title":"Optimized contextually-based matrix",
        "description":"Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
@@ -1700,7 +1700,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":190,
        "title":"Front-line even-keeled array",
        "description":"Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
@@ -1709,7 +1709,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":191,
        "title":"Versatile scalable internet solution",
        "description":"Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.",
@@ -1718,7 +1718,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":192,
        "title":"Balanced transitional middleware",
        "description":"In hac habitasse platea dictumst.",
@@ -1727,7 +1727,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":193,
        "title":"Secured hybrid emulation",
        "description":"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",
@@ -1736,7 +1736,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":194,
        "title":"Persistent multi-tasking forecast",
        "description":"Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
@@ -1745,7 +1745,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":195,
        "title":"Profound logistical functionalities",
        "description":"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
@@ -1754,7 +1754,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":196,
        "title":"Extended modular infrastructure",
        "description":"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
@@ -1763,7 +1763,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":197,
        "title":"Horizontal static interface",
        "description":"Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
@@ -1772,7 +1772,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":198,
        "title":"Cross-platform systematic leverage",
        "description":"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.",
@@ -1781,7 +1781,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":199,
        "title":"Multi-lateral scalable workforce",
        "description":"Aenean sit amet justo. Morbi ut odio.",
@@ -1790,7 +1790,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":200,
        "title":"Polarised impactful orchestration",
        "description":"Suspendisse potenti. In eleifend quam a odio.",
@@ -1799,7 +1799,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":201,
        "title":"User-friendly bandwidth-monitored application",
        "description":"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
@@ -1808,7 +1808,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":202,
        "title":"Progressive needs-based artificial intelligence",
        "description":"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
@@ -1817,7 +1817,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":203,
        "title":"Compatible directional installation",
        "description":"Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
@@ -1826,7 +1826,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":204,
        "title":"De-engineered client-server archive",
        "description":"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
@@ -1835,7 +1835,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":205,
        "title":"Polarised mobile infrastructure",
        "description":"Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.",
@@ -1844,7 +1844,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":206,
        "title":"Compatible maximized artificial intelligence",
        "description":"Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
@@ -1853,7 +1853,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":207,
        "title":"Decentralized responsive customer loyalty",
        "description":"Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
@@ -1862,7 +1862,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":208,
        "title":"Business-focused 24/7 projection",
        "description":"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
@@ -1871,7 +1871,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":209,
        "title":"Synergistic real-time Graphical User Interface",
        "description":"Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
@@ -1880,7 +1880,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":210,
        "title":"Multi-lateral responsive frame",
        "description":"Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.",
@@ -1889,7 +1889,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":211,
        "title":"Networked stable ability",
        "description":"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
@@ -1898,7 +1898,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":212,
        "title":"De-engineered holistic knowledge base",
        "description":"Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
@@ -1907,7 +1907,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":213,
        "title":"Versatile heuristic website",
        "description":"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.",
@@ -1916,7 +1916,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":214,
        "title":"Polarised incremental task-force",
        "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.",
@@ -1925,7 +1925,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":215,
        "title":"Ergonomic regional collaboration",
        "description":"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
@@ -1934,7 +1934,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":216,
        "title":"Triple-buffered value-added migration",
        "description":"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",
@@ -1943,7 +1943,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":217,
        "title":"De-engineered intangible policy",
        "description":"Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
@@ -1952,7 +1952,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":218,
        "title":"Versatile optimal encoding",
        "description":"Etiam faucibus cursus urna.",
@@ -1961,7 +1961,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":219,
        "title":"Configurable secondary task-force",
        "description":"Etiam vel augue.",
@@ -1970,7 +1970,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":220,
        "title":"Decentralized bottom-line utilisation",
        "description":"Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
@@ -1979,7 +1979,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":221,
        "title":"Phased coherent interface",
        "description":"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
@@ -1988,7 +1988,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":222,
        "title":"Customer-focused logistical architecture",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
@@ -1997,7 +1997,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":223,
        "title":"Quality-focused attitude-oriented capability",
        "description":"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.",
@@ -2006,7 +2006,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":224,
        "title":"Horizontal cohesive alliance",
        "description":"Mauris ullamcorper purus sit amet nulla.",
@@ -2015,7 +2015,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":225,
        "title":"Automated grid-enabled protocol",
        "description":"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
@@ -2024,7 +2024,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":226,
        "title":"Optimized upward-trending migration",
        "description":"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
@@ -2033,7 +2033,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":227,
        "title":"Open-source fault-tolerant open architecture",
        "description":"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
@@ -2042,7 +2042,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":228,
        "title":"Proactive regional parallelism",
        "description":"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.",
@@ -2051,7 +2051,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":229,
        "title":"Implemented dynamic archive",
        "description":"Aliquam quis turpis eget elit sodales scelerisque.",
@@ -2060,7 +2060,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":230,
        "title":"Mandatory bandwidth-monitored superstructure",
        "description":"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",
@@ -2069,7 +2069,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":231,
        "title":"Phased radical monitoring",
        "description":"Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
@@ -2078,7 +2078,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":232,
        "title":"Persistent attitude-oriented concept",
        "description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
@@ -2087,7 +2087,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":233,
        "title":"Visionary didactic focus group",
        "description":"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",
@@ -2096,7 +2096,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":234,
        "title":"Configurable eco-centric hardware",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.",
@@ -2105,7 +2105,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":235,
        "title":"Cross-group logistical hierarchy",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
@@ -2114,7 +2114,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":236,
        "title":"Self-enabling uniform adapter",
        "description":"Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
@@ -2123,7 +2123,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":237,
        "title":"Sharable bottom-line standardization",
        "description":"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
@@ -2132,7 +2132,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":238,
        "title":"Assimilated multimedia software",
        "description":"Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
@@ -2141,7 +2141,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":239,
        "title":"Re-contextualized actuating core",
        "description":"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl.",
@@ -2150,7 +2150,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":240,
        "title":"Advanced hybrid standardization",
        "description":"Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
@@ -2159,7 +2159,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":241,
        "title":"Customizable 4th generation internet solution",
        "description":"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
@@ -2168,7 +2168,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":242,
        "title":"Proactive non-volatile core",
        "description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",
@@ -2177,7 +2177,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":243,
        "title":"Triple-buffered didactic projection",
        "description":"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.",
@@ -2186,7 +2186,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":244,
        "title":"Cloned fresh-thinking hardware",
        "description":"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",
@@ -2195,7 +2195,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":245,
        "title":"Horizontal 6th generation utilisation",
        "description":"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
@@ -2204,7 +2204,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":246,
        "title":"Configurable zero administration core",
        "description":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
@@ -2213,7 +2213,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":247,
        "title":"Expanded interactive framework",
        "description":"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
@@ -2222,7 +2222,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":248,
        "title":"Upgradable high-level architecture",
        "description":"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.",
@@ -2231,7 +2231,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":249,
        "title":"Quality-focused incremental hub",
        "description":"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.",
@@ -2240,7 +2240,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":250,
        "title":"Centralized needs-based circuit",
        "description":"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
@@ -2249,7 +2249,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":251,
        "title":"Centralized object-oriented local area network",
        "description":"Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
@@ -2258,7 +2258,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":252,
        "title":"Diverse non-volatile forecast",
        "description":"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -2267,7 +2267,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":253,
        "title":"Total secondary model",
        "description":"Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
@@ -2276,7 +2276,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":254,
        "title":"Synchronised radical framework",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
@@ -2285,7 +2285,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":255,
        "title":"Customizable heuristic hardware",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
@@ -2294,7 +2294,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":256,
        "title":"Enhanced radical policy",
        "description":"Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
@@ -2303,7 +2303,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":257,
        "title":"Down-sized zero tolerance forecast",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",
@@ -2312,7 +2312,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":258,
        "title":"Compatible clear-thinking website",
        "description":"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
@@ -2321,7 +2321,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":259,
        "title":"Reverse-engineered stable service-desk",
        "description":"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.",
@@ -2330,7 +2330,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":260,
        "title":"Digitized client-server emulation",
        "description":"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.",
@@ -2339,7 +2339,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":261,
        "title":"Right-sized even-keeled infrastructure",
        "description":"Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.",
@@ -2348,7 +2348,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":262,
        "title":"Implemented motivating task-force",
        "description":"Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
@@ -2357,7 +2357,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":263,
        "title":"Quality-focused secondary function",
        "description":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
@@ -2366,7 +2366,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":264,
        "title":"Fundamental well-modulated standardization",
        "description":"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.",
@@ -2375,7 +2375,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":265,
        "title":"Public-key bi-directional attitude",
        "description":"Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
@@ -2384,7 +2384,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":266,
        "title":"Integrated tangible matrices",
        "description":"Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
@@ -2393,7 +2393,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":267,
        "title":"Self-enabling discrete system engine",
        "description":"Nulla facilisi. Cras non velit nec nisi vulputate nonummy.",
@@ -2402,7 +2402,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":268,
        "title":"Robust bottom-line emulation",
        "description":"Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
@@ -2411,7 +2411,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":269,
        "title":"Synchronised background structure",
        "description":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
@@ -2420,7 +2420,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":270,
        "title":"Switchable value-added open architecture",
        "description":"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
@@ -2429,7 +2429,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":271,
        "title":"User-centric stable artificial intelligence",
        "description":"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.",
@@ -2438,7 +2438,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":272,
        "title":"Streamlined dedicated collaboration",
        "description":"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
@@ -2447,7 +2447,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":273,
        "title":"Profit-focused dynamic adapter",
        "description":"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
@@ -2456,7 +2456,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":274,
        "title":"Organized hybrid monitoring",
        "description":"Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",
@@ -2465,7 +2465,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":275,
        "title":"Public-key bandwidth-monitored hierarchy",
        "description":"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
@@ -2474,7 +2474,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":276,
        "title":"Future-proofed didactic budgetary management",
        "description":"Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
@@ -2483,7 +2483,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":277,
        "title":"Object-based executive capability",
        "description":"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.",
@@ -2492,7 +2492,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":278,
        "title":"Function-based zero tolerance pricing structure",
        "description":"Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.",
@@ -2501,7 +2501,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":279,
        "title":"Down-sized intermediate standardization",
        "description":"Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
@@ -2510,7 +2510,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":280,
        "title":"Profit-focused impactful complexity",
        "description":"Morbi a ipsum.",
@@ -2519,7 +2519,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":281,
        "title":"Open-architected non-volatile moratorium",
        "description":"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
@@ -2528,7 +2528,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":282,
        "title":"Virtual multi-state application",
        "description":"Nullam molestie nibh in lectus.",
@@ -2537,7 +2537,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":283,
        "title":"Reduced 24/7 core",
        "description":"Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
@@ -2546,7 +2546,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":284,
        "title":"Virtual analyzing toolset",
        "description":"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.",
@@ -2555,7 +2555,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":285,
        "title":"Re-contextualized asymmetric system engine",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
@@ -2564,7 +2564,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":286,
        "title":"Front-line national matrices",
        "description":"Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
@@ -2573,7 +2573,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":287,
        "title":"Fully-configurable system-worthy circuit",
        "description":"Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
@@ -2582,7 +2582,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":288,
        "title":"Multi-lateral 5th generation attitude",
        "description":"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
@@ -2591,7 +2591,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":289,
        "title":"Cross-platform 24/7 access",
        "description":"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
@@ -2600,7 +2600,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":290,
        "title":"Phased methodical local area network",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
@@ -2609,7 +2609,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":291,
        "title":"Devolved client-server middleware",
        "description":"Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
@@ -2618,7 +2618,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":292,
        "title":"Public-key attitude-oriented alliance",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
@@ -2627,7 +2627,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":293,
        "title":"Persistent system-worthy encoding",
        "description":"In quis justo. Maecenas rhoncus aliquam lacus.",
@@ -2636,7 +2636,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":294,
        "title":"Seamless incremental concept",
        "description":"In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",
@@ -2645,7 +2645,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":295,
        "title":"Reactive encompassing process improvement",
        "description":"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",
@@ -2654,7 +2654,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":296,
        "title":"Focused context-sensitive conglomeration",
        "description":"Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",
@@ -2663,7 +2663,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":297,
        "title":"Up-sized global paradigm",
        "description":"Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
@@ -2672,7 +2672,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":298,
        "title":"Triple-buffered background function",
        "description":"Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
@@ -2681,7 +2681,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":299,
        "title":"Horizontal analyzing workforce",
        "description":"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
@@ -2690,7 +2690,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":300,
        "title":"Monitored reciprocal product",
        "description":"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
@@ -2699,7 +2699,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":301,
        "title":"Digitized encompassing database",
        "description":"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
@@ -2708,7 +2708,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":302,
        "title":"Cross-group systematic moderator",
        "description":"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
@@ -2717,7 +2717,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":303,
        "title":"Reactive dynamic strategy",
        "description":"Sed vel enim sit amet nunc viverra dapibus.",
@@ -2726,7 +2726,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":304,
        "title":"Progressive leading edge archive",
        "description":"Pellentesque ultrices mattis odio.",
@@ -2735,7 +2735,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":305,
        "title":"Operative disintermediate synergy",
        "description":"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -2744,7 +2744,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":306,
        "title":"Diverse fault-tolerant functionalities",
        "description":"In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.",
@@ -2753,7 +2753,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":307,
        "title":"Balanced multimedia framework",
        "description":"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.",
@@ -2762,7 +2762,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":308,
        "title":"Robust fresh-thinking info-mediaries",
        "description":"Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
@@ -2771,7 +2771,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":309,
        "title":"Diverse secondary definition",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
@@ -2780,7 +2780,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":310,
        "title":"Versatile tertiary challenge",
        "description":"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.",
@@ -2789,7 +2789,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":311,
        "title":"Optimized national workforce",
        "description":"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
@@ -2798,7 +2798,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":312,
        "title":"Fully-configurable local standardization",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
@@ -2807,7 +2807,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":313,
        "title":"Diverse cohesive emulation",
        "description":"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
@@ -2816,7 +2816,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":314,
        "title":"Optional disintermediate matrix",
        "description":"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
@@ -2825,7 +2825,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":315,
        "title":"Multi-tiered directional application",
        "description":"Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.",
@@ -2834,7 +2834,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":316,
        "title":"Down-sized real-time help-desk",
        "description":"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.",
@@ -2843,7 +2843,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":317,
        "title":"Distributed coherent installation",
        "description":"Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
@@ -2852,7 +2852,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":318,
        "title":"Operative demand-driven algorithm",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
@@ -2861,7 +2861,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":319,
        "title":"Monitored hybrid internet solution",
        "description":"Phasellus id sapien in sapien iaculis congue.",
@@ -2870,7 +2870,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":320,
        "title":"Open-architected disintermediate hierarchy",
        "description":"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.",
@@ -2879,7 +2879,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":321,
        "title":"Quality-focused asymmetric methodology",
        "description":"Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
@@ -2888,7 +2888,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":322,
        "title":"Quality-focused high-level hardware",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
@@ -2897,7 +2897,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":323,
        "title":"Configurable impactful forecast",
        "description":"Pellentesque viverra pede ac diam.",
@@ -2906,7 +2906,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":324,
        "title":"Organic 24/7 orchestration",
        "description":"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",
@@ -2915,7 +2915,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":325,
        "title":"Customizable demand-driven service-desk",
        "description":"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
@@ -2924,7 +2924,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":326,
        "title":"Automated human-resource circuit",
        "description":"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
@@ -2933,7 +2933,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":327,
        "title":"Centralized multi-tasking success",
        "description":"Nulla tempus.",
@@ -2942,7 +2942,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":328,
        "title":"Reactive transitional hierarchy",
        "description":"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",
@@ -2951,7 +2951,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":329,
        "title":"Synergistic 4th generation architecture",
        "description":"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.",
@@ -2960,7 +2960,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":330,
        "title":"Synchronised bifurcated local area network",
        "description":"Nulla ac enim.",
@@ -2969,7 +2969,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":331,
        "title":"Centralized interactive frame",
        "description":"In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.",
@@ -2978,7 +2978,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":332,
        "title":"Multi-tiered homogeneous definition",
        "description":"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
@@ -2987,7 +2987,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":333,
        "title":"Configurable real-time adapter",
        "description":"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.",
@@ -2996,7 +2996,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":334,
        "title":"Enhanced disintermediate utilisation",
        "description":"Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
@@ -3005,7 +3005,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":335,
        "title":"Pre-emptive responsive benchmark",
        "description":"Pellentesque ultrices mattis odio. Donec vitae nisi.",
@@ -3014,7 +3014,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":336,
        "title":"Digitized system-worthy challenge",
        "description":"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",
@@ -3023,7 +3023,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":337,
        "title":"Adaptive 24 hour migration",
        "description":"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",
@@ -3032,7 +3032,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":338,
        "title":"Stand-alone cohesive moderator",
        "description":"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
@@ -3041,7 +3041,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":339,
        "title":"Reduced disintermediate interface",
        "description":"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
@@ -3050,7 +3050,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":340,
        "title":"Operative solution-oriented approach",
        "description":"Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
@@ -3059,7 +3059,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":341,
        "title":"Focused human-resource Graphical User Interface",
        "description":"Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
@@ -3068,7 +3068,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":342,
        "title":"Horizontal global matrix",
        "description":"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
@@ -3077,7 +3077,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":343,
        "title":"Upgradable bifurcated model",
        "description":"Suspendisse accumsan tortor quis turpis. Sed ante.",
@@ -3086,7 +3086,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":344,
        "title":"Synergistic solution-oriented monitoring",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
@@ -3095,7 +3095,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":345,
        "title":"Object-based content-based toolset",
        "description":"Maecenas tincidunt lacus at velit.",
@@ -3104,7 +3104,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":346,
        "title":"Compatible directional protocol",
        "description":"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
@@ -3113,7 +3113,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":347,
        "title":"Grass-roots bandwidth-monitored focus group",
        "description":"Donec posuere metus vitae ipsum.",
@@ -3122,7 +3122,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":348,
        "title":"Ergonomic 24/7 Graphic Interface",
        "description":"Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
@@ -3131,7 +3131,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":349,
        "title":"Innovative radical data-warehouse",
        "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.",
@@ -3140,7 +3140,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":350,
        "title":"Extended hybrid neural-net",
        "description":"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
@@ -3149,7 +3149,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":351,
        "title":"Proactive human-resource complexity",
        "description":"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
@@ -3158,7 +3158,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":352,
        "title":"Business-focused radical utilisation",
        "description":"Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",
@@ -3167,7 +3167,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":353,
        "title":"Persevering intermediate firmware",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
@@ -3176,7 +3176,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":354,
        "title":"Streamlined optimal superstructure",
        "description":"Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
@@ -3185,7 +3185,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":355,
        "title":"Seamless systematic contingency",
        "description":"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
@@ -3194,7 +3194,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":356,
        "title":"Grass-roots radical approach",
        "description":"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
@@ -3203,7 +3203,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":357,
        "title":"Multi-layered client-server internet solution",
        "description":"Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
@@ -3212,7 +3212,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":358,
        "title":"Up-sized disintermediate service-desk",
        "description":"Curabitur in libero ut massa volutpat convallis.",
@@ -3221,7 +3221,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":359,
        "title":"Sharable incremental database",
        "description":"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
@@ -3230,7 +3230,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":360,
        "title":"Organic composite knowledge base",
        "description":"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
@@ -3239,7 +3239,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":361,
        "title":"Business-focused clear-thinking open architecture",
        "description":"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
@@ -3248,7 +3248,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":362,
        "title":"Polarised foreground database",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
@@ -3257,7 +3257,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":363,
        "title":"Versatile responsive archive",
        "description":"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
@@ -3266,7 +3266,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":364,
        "title":"Multi-lateral cohesive software",
        "description":"Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.",
@@ -3275,7 +3275,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":365,
        "title":"Stand-alone needs-based encoding",
        "description":"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
@@ -3284,7 +3284,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":366,
        "title":"Networked dynamic forecast",
        "description":"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
@@ -3293,7 +3293,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":367,
        "title":"Diverse bi-directional synergy",
        "description":"Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
@@ -3302,7 +3302,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":368,
        "title":"Triple-buffered 4th generation definition",
        "description":"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
@@ -3311,7 +3311,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":369,
        "title":"Phased discrete customer loyalty",
        "description":"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
@@ -3320,7 +3320,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":370,
        "title":"Mandatory attitude-oriented intranet",
        "description":"Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
@@ -3329,7 +3329,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":371,
        "title":"Implemented transitional application",
        "description":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.",
@@ -3338,7 +3338,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":372,
        "title":"Down-sized human-resource help-desk",
        "description":"In congue. Etiam justo. Etiam pretium iaculis justo.",
@@ -3347,7 +3347,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":373,
        "title":"Re-contextualized static utilisation",
        "description":"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
@@ -3356,7 +3356,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":374,
        "title":"Fully-configurable stable moratorium",
        "description":"Praesent blandit lacinia erat.",
@@ -3365,7 +3365,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":375,
        "title":"Extended background internet solution",
        "description":"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
@@ -3374,7 +3374,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":376,
        "title":"Exclusive uniform website",
        "description":"Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
@@ -3383,7 +3383,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":377,
        "title":"Progressive foreground instruction set",
        "description":"Mauris sit amet eros.",
@@ -3392,7 +3392,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":378,
        "title":"Expanded multimedia attitude",
        "description":"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",
@@ -3401,7 +3401,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":379,
        "title":"Pre-emptive incremental model",
        "description":"Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",
@@ -3410,7 +3410,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":380,
        "title":"Secured hybrid policy",
        "description":"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum.",
@@ -3419,7 +3419,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":381,
        "title":"Versatile directional process improvement",
        "description":"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",
@@ -3428,7 +3428,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":382,
        "title":"Configurable multi-state customer loyalty",
        "description":"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
@@ -3437,7 +3437,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":383,
        "title":"Distributed fresh-thinking hardware",
        "description":"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
@@ -3446,7 +3446,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":384,
        "title":"Team-oriented context-sensitive installation",
        "description":"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
@@ -3455,7 +3455,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":385,
        "title":"Vision-oriented grid-enabled standardization",
        "description":"Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
@@ -3464,7 +3464,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":386,
        "title":"Integrated cohesive superstructure",
        "description":"Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
@@ -3473,7 +3473,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":387,
        "title":"Managed eco-centric time-frame",
        "description":"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.",
@@ -3482,7 +3482,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":388,
        "title":"Right-sized scalable pricing structure",
        "description":"Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
@@ -3491,7 +3491,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":389,
        "title":"Persistent well-modulated toolset",
        "description":"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.",
@@ -3500,7 +3500,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":390,
        "title":"Cloned value-added product",
        "description":"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",
@@ -3509,7 +3509,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":391,
        "title":"Ameliorated maximized middleware",
        "description":"Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
@@ -3518,7 +3518,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":392,
        "title":"Ergonomic needs-based moderator",
        "description":"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
@@ -3527,7 +3527,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":393,
        "title":"Extended directional approach",
        "description":"Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
@@ -3536,7 +3536,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":394,
        "title":"Expanded leading edge adapter",
        "description":"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
@@ -3545,7 +3545,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":395,
        "title":"Extended mobile infrastructure",
        "description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
@@ -3554,7 +3554,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":396,
        "title":"Stand-alone mobile methodology",
        "description":"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",
@@ -3563,7 +3563,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":397,
        "title":"Synergized impactful implementation",
        "description":"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
@@ -3572,7 +3572,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":398,
        "title":"Total incremental workforce",
        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",
@@ -3581,7 +3581,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":399,
        "title":"Future-proofed non-volatile middleware",
        "description":"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.",
@@ -3590,7 +3590,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":400,
        "title":"User-friendly radical software",
        "description":"In blandit ultrices enim.",
@@ -3599,7 +3599,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":401,
        "title":"Fundamental homogeneous capacity",
        "description":"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
@@ -3608,7 +3608,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":402,
        "title":"Vision-oriented tangible protocol",
        "description":"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
@@ -3617,7 +3617,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":403,
        "title":"Mandatory non-volatile emulation",
        "description":"In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
@@ -3626,7 +3626,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":404,
        "title":"Stand-alone interactive encoding",
        "description":"Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
@@ -3635,7 +3635,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":405,
        "title":"Networked dynamic leverage",
        "description":"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
@@ -3644,7 +3644,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":406,
        "title":"Intuitive optimizing intranet",
        "description":"Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.",
@@ -3653,7 +3653,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":407,
        "title":"Seamless leading edge customer loyalty",
        "description":"Ut tellus.",
@@ -3662,7 +3662,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":408,
        "title":"Networked mission-critical infrastructure",
        "description":"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.",
@@ -3671,7 +3671,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":409,
        "title":"Synergized coherent structure",
        "description":"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
@@ -3680,7 +3680,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":410,
        "title":"Digitized executive function",
        "description":"Aliquam erat volutpat. In congue.",
@@ -3689,7 +3689,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":411,
        "title":"Front-line interactive core",
        "description":"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.",
@@ -3698,7 +3698,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":412,
        "title":"Visionary system-worthy architecture",
        "description":"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
@@ -3707,7 +3707,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":413,
        "title":"Organic grid-enabled hierarchy",
        "description":"Nulla mollis molestie lorem.",
@@ -3716,7 +3716,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":414,
        "title":"Persevering holistic productivity",
        "description":"Sed ante. Vivamus tortor. Duis mattis egestas metus.",
@@ -3725,7 +3725,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":415,
        "title":"Right-sized upward-trending hardware",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
@@ -3734,7 +3734,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":416,
        "title":"Virtual 24/7 focus group",
        "description":"Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
@@ -3743,7 +3743,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":417,
        "title":"Future-proofed logistical hierarchy",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.",
@@ -3752,7 +3752,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":418,
        "title":"Adaptive 24/7 toolset",
        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",
@@ -3761,7 +3761,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":419,
        "title":"Persistent exuding conglomeration",
        "description":"In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
@@ -3770,7 +3770,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":420,
        "title":"Horizontal systemic access",
        "description":"Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
@@ -3779,7 +3779,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":421,
        "title":"Configurable systemic neural-net",
        "description":"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.",
@@ -3788,7 +3788,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":422,
        "title":"Right-sized bi-directional archive",
        "description":"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
@@ -3797,7 +3797,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":423,
        "title":"Upgradable optimal challenge",
        "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",
@@ -3806,7 +3806,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":424,
        "title":"Fundamental 24/7 customer loyalty",
        "description":"In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.",
@@ -3815,7 +3815,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":425,
        "title":"Decentralized zero tolerance initiative",
        "description":"Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
@@ -3824,7 +3824,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":426,
        "title":"Multi-lateral human-resource focus group",
        "description":"Nulla nisl. Nunc nisl.",
@@ -3833,7 +3833,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":427,
        "title":"Optimized tertiary analyzer",
        "description":"Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -3842,7 +3842,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":428,
        "title":"Balanced methodical internet solution",
        "description":"Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
@@ -3851,7 +3851,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":429,
        "title":"Ameliorated reciprocal solution",
        "description":"Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
@@ -3860,7 +3860,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":430,
        "title":"Horizontal homogeneous concept",
        "description":"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.",
@@ -3869,7 +3869,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":431,
        "title":"Cross-group discrete extranet",
        "description":"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
@@ -3878,7 +3878,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":432,
        "title":"Future-proofed grid-enabled groupware",
        "description":"Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.",
@@ -3887,7 +3887,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":433,
        "title":"Cross-group multimedia interface",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",
@@ -3896,7 +3896,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":434,
        "title":"Phased zero defect orchestration",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.",
@@ -3905,7 +3905,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":435,
        "title":"Multi-lateral 24 hour support",
        "description":"Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
@@ -3914,7 +3914,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":436,
        "title":"Horizontal heuristic analyzer",
        "description":"Etiam justo.",
@@ -3923,7 +3923,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":437,
        "title":"Enhanced full-range Graphical User Interface",
        "description":"Morbi non quam nec dui luctus rutrum.",
@@ -3932,7 +3932,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":438,
        "title":"Mandatory non-volatile parallelism",
        "description":"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
@@ -3941,7 +3941,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":439,
        "title":"Public-key regional Graphic Interface",
        "description":"Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
@@ -3950,7 +3950,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":440,
        "title":"Polarised methodical collaboration",
        "description":"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
@@ -3959,7 +3959,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":441,
        "title":"Enterprise-wide demand-driven paradigm",
        "description":"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",
@@ -3968,7 +3968,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":442,
        "title":"Open-architected 6th generation throughput",
        "description":"Suspendisse accumsan tortor quis turpis.",
@@ -3977,7 +3977,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":443,
        "title":"Devolved incremental function",
        "description":"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
@@ -3986,7 +3986,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":444,
        "title":"Team-oriented exuding synergy",
        "description":"Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
@@ -3995,7 +3995,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":445,
        "title":"Enterprise-wide multi-state circuit",
        "description":"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -4004,7 +4004,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":446,
        "title":"Advanced 6th generation encryption",
        "description":"Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.",
@@ -4013,7 +4013,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":447,
        "title":"Programmable leading edge hardware",
        "description":"Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
@@ -4022,7 +4022,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":448,
        "title":"Virtual dedicated circuit",
        "description":"Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",
@@ -4031,7 +4031,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":449,
        "title":"Customer-focused 3rd generation strategy",
        "description":"Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
@@ -4040,7 +4040,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":450,
        "title":"Sharable scalable moratorium",
        "description":"Suspendisse potenti. Nullam porttitor lacus at turpis.",
@@ -4049,7 +4049,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":451,
        "title":"Up-sized intangible help-desk",
        "description":"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.",
@@ -4058,7 +4058,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":452,
        "title":"Organized zero administration strategy",
        "description":"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
@@ -4067,7 +4067,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":453,
        "title":"Synergized object-oriented database",
        "description":"Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
@@ -4076,7 +4076,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":454,
        "title":"Down-sized clear-thinking concept",
        "description":"Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.",
@@ -4085,7 +4085,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":455,
        "title":"Balanced zero defect productivity",
        "description":"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
@@ -4094,7 +4094,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":456,
        "title":"Enterprise-wide client-driven parallelism",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
@@ -4103,7 +4103,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":457,
        "title":"Compatible foreground analyzer",
        "description":"Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.",
@@ -4112,7 +4112,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":458,
        "title":"Synergized bi-directional synergy",
        "description":"Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
@@ -4121,7 +4121,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":459,
        "title":"User-friendly 4th generation analyzer",
        "description":"Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.",
@@ -4130,7 +4130,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":460,
        "title":"Optional systematic methodology",
        "description":"Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
@@ -4139,7 +4139,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":461,
        "title":"Persevering motivating protocol",
        "description":"Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
@@ -4148,7 +4148,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":462,
        "title":"Visionary foreground website",
        "description":"Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
@@ -4157,7 +4157,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":463,
        "title":"Customizable even-keeled product",
        "description":"Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
@@ -4166,7 +4166,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":464,
        "title":"Ergonomic explicit initiative",
        "description":"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
@@ -4175,7 +4175,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":465,
        "title":"Virtual heuristic orchestration",
        "description":"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
@@ -4184,7 +4184,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":466,
        "title":"Networked grid-enabled open system",
        "description":"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.",
@@ -4193,7 +4193,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":467,
        "title":"Customer-focused real-time strategy",
        "description":"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
@@ -4202,7 +4202,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":468,
        "title":"Intuitive maximized paradigm",
        "description":"Maecenas pulvinar lobortis est.",
@@ -4211,7 +4211,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":469,
        "title":"Reverse-engineered methodical software",
        "description":"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
@@ -4220,7 +4220,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":470,
        "title":"Multi-channelled grid-enabled firmware",
        "description":"Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
@@ -4229,7 +4229,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":471,
        "title":"Exclusive modular service-desk",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
@@ -4238,7 +4238,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":472,
        "title":"Multi-channelled non-volatile hardware",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
@@ -4247,7 +4247,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":473,
        "title":"Intuitive global application",
        "description":"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -4256,7 +4256,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":474,
        "title":"Ergonomic reciprocal pricing structure",
        "description":"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
@@ -4265,7 +4265,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":475,
        "title":"Organized 5th generation middleware",
        "description":"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
@@ -4274,7 +4274,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":476,
        "title":"Business-focused analyzing superstructure",
        "description":"Donec dapibus.",
@@ -4283,7 +4283,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":477,
        "title":"User-centric next generation toolset",
        "description":"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
@@ -4292,7 +4292,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":478,
        "title":"Multi-channelled intangible solution",
        "description":"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.",
@@ -4301,7 +4301,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":479,
        "title":"Virtual logistical pricing structure",
        "description":"Aliquam erat volutpat. In congue.",
@@ -4310,7 +4310,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":480,
        "title":"Pre-emptive empowering forecast",
        "description":"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
@@ -4319,7 +4319,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":481,
        "title":"Right-sized next generation focus group",
        "description":"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -4328,7 +4328,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":482,
        "title":"Decentralized attitude-oriented open architecture",
        "description":"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
@@ -4337,7 +4337,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":483,
        "title":"Automated client-driven alliance",
        "description":"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
@@ -4346,7 +4346,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":484,
        "title":"Cloned systematic access",
        "description":"Etiam faucibus cursus urna. Ut tellus.",
@@ -4355,7 +4355,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":485,
        "title":"Programmable maximized instruction set",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.",
@@ -4364,7 +4364,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":486,
        "title":"Distributed solution-oriented synergy",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
@@ -4373,7 +4373,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":487,
        "title":"Universal optimal protocol",
        "description":"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",
@@ -4382,7 +4382,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":488,
        "title":"Synergistic global process improvement",
        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.",
@@ -4391,7 +4391,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":489,
        "title":"Pre-emptive actuating moratorium",
        "description":"Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.",
@@ -4400,7 +4400,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":490,
        "title":"Reverse-engineered directional website",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
@@ -4409,7 +4409,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":491,
        "title":"Adaptive mobile middleware",
        "description":"Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
@@ -4418,7 +4418,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":492,
        "title":"Digitized real-time encryption",
        "description":"Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",
@@ -4427,7 +4427,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":493,
        "title":"Seamless composite hierarchy",
        "description":"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
@@ -4436,7 +4436,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":494,
        "title":"Reverse-engineered contextually-based instruction set",
        "description":"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
@@ -4445,7 +4445,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":495,
        "title":"Reduced 24 hour local area network",
        "description":"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
@@ -4454,7 +4454,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":496,
        "title":"Total explicit extranet",
        "description":"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.",
@@ -4463,7 +4463,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":497,
        "title":"Team-oriented stable alliance",
        "description":"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.",
@@ -4472,7 +4472,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":498,
        "title":"Organized system-worthy Graphical User Interface",
        "description":"Nunc rhoncus dui vel sem.",
@@ -4481,7 +4481,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":499,
        "title":"Innovative multi-state adapter",
        "description":"Fusce consequat. Nulla nisl.",
@@ -4490,7 +4490,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":500,
        "title":"Cross-group optimal emulation",
        "description":"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
@@ -4499,7 +4499,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":501,
        "title":"Self-enabling client-server parallelism",
        "description":"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
@@ -4508,7 +4508,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":502,
        "title":"Stand-alone asymmetric paradigm",
        "description":"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
@@ -4517,7 +4517,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":503,
        "title":"Re-contextualized executive access",
        "description":"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",
@@ -4526,7 +4526,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":504,
        "title":"Cross-group cohesive matrices",
        "description":"Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -4535,7 +4535,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":505,
        "title":"Monitored modular functionalities",
        "description":"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
@@ -4544,7 +4544,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":506,
        "title":"Streamlined composite migration",
        "description":"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
@@ -4553,7 +4553,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":507,
        "title":"Centralized systemic methodology",
        "description":"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
@@ -4562,7 +4562,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":508,
        "title":"Multi-channelled needs-based paradigm",
        "description":"Nam dui.",
@@ -4571,7 +4571,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":509,
        "title":"Customer-focused actuating orchestration",
        "description":"Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.",
@@ -4580,7 +4580,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":510,
        "title":"Realigned responsive superstructure",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
@@ -4589,7 +4589,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":511,
        "title":"Persevering radical superstructure",
        "description":"Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.",
@@ -4598,7 +4598,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":512,
        "title":"Proactive non-volatile capability",
        "description":"Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",
@@ -4607,7 +4607,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":513,
        "title":"Intuitive multi-state alliance",
        "description":"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
@@ -4616,7 +4616,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":514,
        "title":"Diverse global help-desk",
        "description":"Nunc purus. Phasellus in felis. Donec semper sapien a libero.",
@@ -4625,7 +4625,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":515,
        "title":"Secured modular knowledge user",
        "description":"Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
@@ -4634,7 +4634,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":516,
        "title":"Universal multi-state implementation",
        "description":"Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
@@ -4643,7 +4643,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":517,
        "title":"Organized 4th generation structure",
        "description":"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
@@ -4652,7 +4652,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":518,
        "title":"Extended leading edge project",
        "description":"Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
@@ -4661,7 +4661,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":519,
        "title":"Automated scalable core",
        "description":"Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
@@ -4670,7 +4670,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":520,
        "title":"Innovative value-added strategy",
        "description":"Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.",
@@ -4679,7 +4679,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":521,
        "title":"Synergistic exuding website",
        "description":"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
@@ -4688,7 +4688,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":522,
        "title":"Cloned 3rd generation initiative",
        "description":"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
@@ -4697,7 +4697,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":523,
        "title":"Down-sized full-range hardware",
        "description":"Sed sagittis.",
@@ -4706,7 +4706,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":524,
        "title":"Synchronised multi-state capability",
        "description":"Nulla tellus.",
@@ -4715,7 +4715,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":525,
        "title":"Cross-group secondary data-warehouse",
        "description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
@@ -4724,7 +4724,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":526,
        "title":"Configurable intangible implementation",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris.",
@@ -4733,7 +4733,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":527,
        "title":"Secured 24 hour toolset",
        "description":"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
@@ -4742,7 +4742,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":528,
        "title":"Innovative radical methodology",
        "description":"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
@@ -4751,7 +4751,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":529,
        "title":"Proactive homogeneous migration",
        "description":"Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
@@ -4760,7 +4760,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":530,
        "title":"Digitized static productivity",
        "description":"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
@@ -4769,7 +4769,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":531,
        "title":"Face to face secondary attitude",
        "description":"Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
@@ -4778,7 +4778,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":532,
        "title":"Synergistic high-level project",
        "description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",
@@ -4787,7 +4787,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":533,
        "title":"Up-sized client-server secured line",
        "description":"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
@@ -4796,7 +4796,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":534,
        "title":"Up-sized maximized contingency",
        "description":"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam.",
@@ -4805,7 +4805,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":535,
        "title":"Visionary maximized ability",
        "description":"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
@@ -4814,7 +4814,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":536,
        "title":"Cross-group stable architecture",
        "description":"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.",
@@ -4823,7 +4823,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":537,
        "title":"Networked asynchronous core",
        "description":"Aenean auctor gravida sem.",
@@ -4832,7 +4832,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":538,
        "title":"Digitized user-facing process improvement",
        "description":"Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue.",
@@ -4841,7 +4841,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":539,
        "title":"Assimilated solution-oriented orchestration",
        "description":"Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
@@ -4850,7 +4850,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":540,
        "title":"Automated multi-state hierarchy",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",
@@ -4859,7 +4859,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":541,
        "title":"Devolved demand-driven neural-net",
        "description":"Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis.",
@@ -4868,7 +4868,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":542,
        "title":"Implemented mobile service-desk",
        "description":"In sagittis dui vel nisl.",
@@ -4877,7 +4877,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":543,
        "title":"Right-sized zero defect structure",
        "description":"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
@@ -4886,7 +4886,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":544,
        "title":"Configurable national approach",
        "description":"Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
@@ -4895,7 +4895,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":545,
        "title":"Vision-oriented content-based encoding",
        "description":"Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.",
@@ -4904,7 +4904,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":546,
        "title":"Cross-platform maximized protocol",
        "description":"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -4913,7 +4913,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":547,
        "title":"Triple-buffered didactic knowledge user",
        "description":"Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
@@ -4922,7 +4922,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":548,
        "title":"Business-focused 3rd generation forecast",
        "description":"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",
@@ -4931,7 +4931,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":549,
        "title":"Universal holistic challenge",
        "description":"Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
@@ -4940,7 +4940,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":550,
        "title":"Operative high-level flexibility",
        "description":"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
@@ -4949,7 +4949,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":551,
        "title":"Streamlined asynchronous focus group",
        "description":"Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
@@ -4958,7 +4958,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":552,
        "title":"Compatible real-time firmware",
        "description":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",
@@ -4967,7 +4967,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":553,
        "title":"Compatible bi-directional moderator",
        "description":"Morbi vel lectus in quam fringilla rhoncus.",
@@ -4976,7 +4976,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":554,
        "title":"Public-key asymmetric capability",
        "description":"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
@@ -4985,7 +4985,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":555,
        "title":"Streamlined zero administration info-mediaries",
        "description":"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
@@ -4994,7 +4994,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":556,
        "title":"Advanced local interface",
        "description":"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.",
@@ -5003,7 +5003,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":557,
        "title":"Horizontal dynamic access",
        "description":"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
@@ -5012,7 +5012,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":558,
        "title":"Vision-oriented hybrid circuit",
        "description":"In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.",
@@ -5021,7 +5021,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":559,
        "title":"Right-sized static parallelism",
        "description":"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",
@@ -5030,7 +5030,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":560,
        "title":"Up-sized background project",
        "description":"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
@@ -5039,7 +5039,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":561,
        "title":"Enhanced reciprocal paradigm",
        "description":"Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.",
@@ -5048,7 +5048,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":562,
        "title":"Re-contextualized static Graphic Interface",
        "description":"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
@@ -5057,7 +5057,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":563,
        "title":"Versatile hybrid policy",
        "description":"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.",
@@ -5066,7 +5066,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":564,
        "title":"Function-based leading edge approach",
        "description":"Donec ut mauris eget massa tempor convallis.",
@@ -5075,7 +5075,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":565,
        "title":"Face to face encompassing definition",
        "description":"In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.",
@@ -5084,7 +5084,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":566,
        "title":"Down-sized zero defect artificial intelligence",
        "description":"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
@@ -5093,7 +5093,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":567,
        "title":"Enhanced well-modulated application",
        "description":"Suspendisse potenti.",
@@ -5102,7 +5102,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":568,
        "title":"Organic mobile projection",
        "description":"Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
@@ -5111,7 +5111,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":569,
        "title":"Networked actuating website",
        "description":"Nulla mollis molestie lorem. Quisque ut erat.",
@@ -5120,7 +5120,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":570,
        "title":"Ergonomic cohesive internet solution",
        "description":"Sed accumsan felis.",
@@ -5129,7 +5129,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":571,
        "title":"Future-proofed optimizing knowledge user",
        "description":"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
@@ -5138,7 +5138,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":572,
        "title":"Cross-platform grid-enabled throughput",
        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
@@ -5147,7 +5147,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":573,
        "title":"Future-proofed non-volatile moratorium",
        "description":"Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.",
@@ -5156,7 +5156,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":574,
        "title":"Ameliorated fault-tolerant help-desk",
        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",
@@ -5165,7 +5165,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":575,
        "title":"Triple-buffered bifurcated service-desk",
        "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
@@ -5174,7 +5174,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":576,
        "title":"Secured incremental methodology",
        "description":"Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",
@@ -5183,7 +5183,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":577,
        "title":"Phased bandwidth-monitored migration",
        "description":"Suspendisse potenti.",
@@ -5192,7 +5192,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":578,
        "title":"Switchable contextually-based model",
        "description":"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
@@ -5201,7 +5201,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":579,
        "title":"Reverse-engineered bifurcated infrastructure",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.",
@@ -5210,7 +5210,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":580,
        "title":"Multi-layered 24/7 matrix",
        "description":"Proin eu mi.",
@@ -5219,7 +5219,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":581,
        "title":"Robust leading edge strategy",
        "description":"Quisque porta volutpat erat.",
@@ -5228,7 +5228,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":582,
        "title":"Advanced object-oriented project",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
@@ -5237,7 +5237,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":583,
        "title":"Persevering asymmetric success",
        "description":"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
@@ -5246,7 +5246,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":584,
        "title":"Advanced next generation circuit",
        "description":"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
@@ -5255,7 +5255,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":585,
        "title":"Down-sized dynamic capacity",
        "description":"Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
@@ -5264,7 +5264,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":586,
        "title":"Re-engineered secondary capacity",
        "description":"Quisque id justo sit amet sapien dignissim vestibulum.",
@@ -5273,7 +5273,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":587,
        "title":"Pre-emptive explicit task-force",
        "description":"Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
@@ -5282,7 +5282,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":588,
        "title":"Grass-roots heuristic open system",
        "description":"Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.",
@@ -5291,7 +5291,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":589,
        "title":"Business-focused content-based flexibility",
        "description":"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",
@@ -5300,7 +5300,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":590,
        "title":"Enterprise-wide 24/7 emulation",
        "description":"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
@@ -5309,7 +5309,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":591,
        "title":"Front-line system-worthy neural-net",
        "description":"Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
@@ -5318,7 +5318,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":592,
        "title":"Reactive clear-thinking software",
        "description":"Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.",
@@ -5327,7 +5327,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":593,
        "title":"Open-architected transitional framework",
        "description":"Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
@@ -5336,7 +5336,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":594,
        "title":"Implemented leading edge strategy",
        "description":"Mauris sit amet eros.",
@@ -5345,7 +5345,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":595,
        "title":"Centralized optimizing protocol",
        "description":"Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
@@ -5354,7 +5354,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":596,
        "title":"Profound methodical protocol",
        "description":"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
@@ -5363,7 +5363,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":597,
        "title":"De-engineered holistic extranet",
        "description":"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
@@ -5372,7 +5372,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":598,
        "title":"Operative scalable installation",
        "description":"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
@@ -5381,7 +5381,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":599,
        "title":"Focused upward-trending middleware",
        "description":"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
@@ -5390,7 +5390,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":600,
        "title":"Versatile object-oriented leverage",
        "description":"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien.",
@@ -5399,7 +5399,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":601,
        "title":"Synergized scalable open system",
        "description":"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",
@@ -5408,7 +5408,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":602,
        "title":"Devolved bottom-line instruction set",
        "description":"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",
@@ -5417,7 +5417,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":603,
        "title":"Exclusive methodical moderator",
        "description":"Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",
@@ -5426,7 +5426,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":604,
        "title":"Grass-roots fresh-thinking focus group",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",
@@ -5435,7 +5435,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":605,
        "title":"De-engineered methodical internet solution",
        "description":"Morbi a ipsum. Integer a nibh.",
@@ -5444,7 +5444,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":606,
        "title":"Robust zero tolerance database",
        "description":"Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
@@ -5453,7 +5453,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":607,
        "title":"Universal upward-trending workforce",
        "description":"Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",
@@ -5462,7 +5462,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":608,
        "title":"Total client-driven orchestration",
        "description":"Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
@@ -5471,7 +5471,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":609,
        "title":"Advanced full-range neural-net",
        "description":"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.",
@@ -5480,7 +5480,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":610,
        "title":"Profound optimizing capacity",
        "description":"Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
@@ -5489,7 +5489,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":611,
        "title":"Integrated demand-driven system engine",
        "description":"Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
@@ -5498,7 +5498,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":612,
        "title":"Expanded well-modulated extranet",
        "description":"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.",
@@ -5507,7 +5507,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":613,
        "title":"Balanced leading edge core",
        "description":"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
@@ -5516,7 +5516,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":614,
        "title":"Synergized eco-centric support",
        "description":"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
@@ -5525,7 +5525,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":615,
        "title":"Ergonomic well-modulated application",
        "description":"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
@@ -5534,7 +5534,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":616,
        "title":"Vision-oriented upward-trending interface",
        "description":"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
@@ -5543,7 +5543,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":617,
        "title":"Up-sized mission-critical protocol",
        "description":"Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
@@ -5552,7 +5552,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":618,
        "title":"Down-sized asymmetric support",
        "description":"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
@@ -5561,7 +5561,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":619,
        "title":"Re-engineered didactic software",
        "description":"Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",
@@ -5570,7 +5570,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":620,
        "title":"Reduced 5th generation strategy",
        "description":"Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
@@ -5579,7 +5579,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":621,
        "title":"Object-based incremental collaboration",
        "description":"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
@@ -5588,7 +5588,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":622,
        "title":"Multi-channelled exuding data-warehouse",
        "description":"In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.",
@@ -5597,7 +5597,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":623,
        "title":"Optional attitude-oriented encryption",
        "description":"Phasellus id sapien in sapien iaculis congue.",
@@ -5606,7 +5606,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":624,
        "title":"Business-focused asymmetric portal",
        "description":"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
@@ -5615,7 +5615,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":625,
        "title":"Robust asymmetric installation",
        "description":"Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
@@ -5624,7 +5624,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":626,
        "title":"Optional national matrix",
        "description":"Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
@@ -5633,7 +5633,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":627,
        "title":"Centralized 24/7 parallelism",
        "description":"Phasellus in felis. Donec semper sapien a libero.",
@@ -5642,7 +5642,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":628,
        "title":"Multi-tiered incremental methodology",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
@@ -5651,7 +5651,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":629,
        "title":"Adaptive solution-oriented knowledge user",
        "description":"Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
@@ -5660,7 +5660,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":630,
        "title":"Expanded context-sensitive archive",
        "description":"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -5669,7 +5669,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":631,
        "title":"Re-contextualized high-level capability",
        "description":"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo.",
@@ -5678,7 +5678,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":632,
        "title":"De-engineered demand-driven superstructure",
        "description":"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.",
@@ -5687,7 +5687,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":633,
        "title":"Pre-emptive system-worthy knowledge user",
        "description":"In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst.",
@@ -5696,7 +5696,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":634,
        "title":"Focused even-keeled framework",
        "description":"Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",
@@ -5705,7 +5705,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":635,
        "title":"Optional systematic adapter",
        "description":"Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",
@@ -5714,7 +5714,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":636,
        "title":"User-centric uniform pricing structure",
        "description":"Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
@@ -5723,7 +5723,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":637,
        "title":"Re-engineered uniform matrices",
        "description":"Fusce posuere felis sed lacus.",
@@ -5732,7 +5732,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":638,
        "title":"Profit-focused maximized methodology",
        "description":"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
@@ -5741,7 +5741,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":639,
        "title":"Exclusive value-added neural-net",
        "description":"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
@@ -5750,7 +5750,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":640,
        "title":"Proactive upward-trending array",
        "description":"Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.",
@@ -5759,7 +5759,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":641,
        "title":"Balanced modular knowledge user",
        "description":"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.",
@@ -5768,7 +5768,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":642,
        "title":"Networked asymmetric conglomeration",
        "description":"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
@@ -5777,7 +5777,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":643,
        "title":"Open-source asymmetric challenge",
        "description":"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
@@ -5786,7 +5786,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":644,
        "title":"Triple-buffered dynamic algorithm",
        "description":"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
@@ -5795,7 +5795,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":645,
        "title":"Optional composite functionalities",
        "description":"Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",
@@ -5804,7 +5804,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":646,
        "title":"Realigned leading edge knowledge user",
        "description":"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.",
@@ -5813,7 +5813,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":647,
        "title":"Configurable client-server budgetary management",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
@@ -5822,7 +5822,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":648,
        "title":"Digitized heuristic complexity",
        "description":"Ut tellus. Nulla ut erat id mauris vulputate elementum.",
@@ -5831,7 +5831,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":649,
        "title":"Reactive zero administration structure",
        "description":"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
@@ -5840,7 +5840,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":650,
        "title":"Cross-group mobile structure",
        "description":"Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
@@ -5849,7 +5849,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":651,
        "title":"Diverse intangible synergy",
        "description":"Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
@@ -5858,7 +5858,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":652,
        "title":"Mandatory dedicated infrastructure",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
@@ -5867,7 +5867,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":653,
        "title":"Cloned national data-warehouse",
        "description":"Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -5876,7 +5876,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":654,
        "title":"Intuitive secondary intranet",
        "description":"Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
@@ -5885,7 +5885,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":655,
        "title":"Public-key holistic instruction set",
        "description":"Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
@@ -5894,7 +5894,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":656,
        "title":"Optimized hybrid definition",
        "description":"Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
@@ -5903,7 +5903,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":657,
        "title":"Face to face even-keeled extranet",
        "description":"Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
@@ -5912,7 +5912,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":658,
        "title":"Reactive directional help-desk",
        "description":"Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
@@ -5921,7 +5921,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":659,
        "title":"Quality-focused secondary analyzer",
        "description":"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
@@ -5930,7 +5930,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":660,
        "title":"Face to face zero tolerance solution",
        "description":"Fusce consequat.",
@@ -5939,7 +5939,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":661,
        "title":"Versatile demand-driven open architecture",
        "description":"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
@@ -5948,7 +5948,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":662,
        "title":"User-friendly contextually-based database",
        "description":"Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
@@ -5957,7 +5957,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":663,
        "title":"Synergistic 6th generation capability",
        "description":"Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
@@ -5966,7 +5966,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":664,
        "title":"Up-sized zero defect archive",
        "description":"Proin at turpis a pede posuere nonummy. Integer non velit.",
@@ -5975,7 +5975,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":665,
        "title":"Persistent holistic frame",
        "description":"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
@@ -5984,7 +5984,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":666,
        "title":"Networked incremental concept",
        "description":"Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
@@ -5993,7 +5993,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":667,
        "title":"Triple-buffered next generation project",
        "description":"Aliquam sit amet diam in magna bibendum imperdiet.",
@@ -6002,7 +6002,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":668,
        "title":"Organic bi-directional frame",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
@@ -6011,7 +6011,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":669,
        "title":"Face to face dynamic core",
        "description":"Donec semper sapien a libero. Nam dui.",
@@ -6020,7 +6020,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":670,
        "title":"Vision-oriented foreground complexity",
        "description":"Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.",
@@ -6029,7 +6029,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":671,
        "title":"Cross-platform mission-critical intranet",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus.",
@@ -6038,7 +6038,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":672,
        "title":"Universal fresh-thinking implementation",
        "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante.",
@@ -6047,7 +6047,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":673,
        "title":"Phased stable system engine",
        "description":"Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.",
@@ -6056,7 +6056,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":674,
        "title":"Future-proofed secondary complexity",
        "description":"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
@@ -6065,7 +6065,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":675,
        "title":"Advanced multimedia capacity",
        "description":"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
@@ -6074,7 +6074,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":676,
        "title":"Public-key heuristic software",
        "description":"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
@@ -6083,7 +6083,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":677,
        "title":"Reduced multimedia orchestration",
        "description":"Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.",
@@ -6092,7 +6092,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":678,
        "title":"Customizable responsive software",
        "description":"Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat.",
@@ -6101,7 +6101,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":679,
        "title":"Configurable neutral intranet",
        "description":"Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
@@ -6110,7 +6110,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":680,
        "title":"Virtual uniform time-frame",
        "description":"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",
@@ -6119,7 +6119,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":681,
        "title":"Persevering contextually-based utilisation",
        "description":"Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.",
@@ -6128,7 +6128,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":682,
        "title":"Cloned foreground capability",
        "description":"Nulla tempus.",
@@ -6137,7 +6137,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":683,
        "title":"Grass-roots tertiary model",
        "description":"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
@@ -6146,7 +6146,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":684,
        "title":"Reduced user-facing toolset",
        "description":"Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
@@ -6155,7 +6155,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":685,
        "title":"Business-focused 24 hour challenge",
        "description":"Fusce consequat.",
@@ -6164,7 +6164,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":686,
        "title":"Public-key regional system engine",
        "description":"Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",
@@ -6173,7 +6173,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":687,
        "title":"Up-sized holistic extranet",
        "description":"Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
@@ -6182,7 +6182,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":688,
        "title":"Object-based maximized task-force",
        "description":"Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
@@ -6191,7 +6191,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":689,
        "title":"Visionary web-enabled toolset",
        "description":"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
@@ -6200,7 +6200,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":690,
        "title":"Operative homogeneous leverage",
        "description":"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
@@ -6209,7 +6209,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":691,
        "title":"Implemented value-added definition",
        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
@@ -6218,7 +6218,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":692,
        "title":"De-engineered 5th generation productivity",
        "description":"Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.",
@@ -6227,7 +6227,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":693,
        "title":"Innovative holistic moratorium",
        "description":"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
@@ -6236,7 +6236,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":694,
        "title":"Public-key directional function",
        "description":"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
@@ -6245,7 +6245,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":695,
        "title":"Triple-buffered upward-trending approach",
        "description":"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
@@ -6254,7 +6254,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":696,
        "title":"Organized 3rd generation application",
        "description":"Ut tellus.",
@@ -6263,7 +6263,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":697,
        "title":"Organized client-driven forecast",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris.",
@@ -6272,7 +6272,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":698,
        "title":"De-engineered transitional analyzer",
        "description":"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.",
@@ -6281,7 +6281,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":699,
        "title":"Decentralized hybrid conglomeration",
        "description":"Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.",
@@ -6290,7 +6290,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":700,
        "title":"Public-key logistical paradigm",
        "description":"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
@@ -6299,7 +6299,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":701,
        "title":"Polarised logistical utilisation",
        "description":"Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.",
@@ -6308,7 +6308,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":702,
        "title":"Fully-configurable mission-critical circuit",
        "description":"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",
@@ -6317,7 +6317,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":703,
        "title":"Robust well-modulated toolset",
        "description":"Nulla ac enim.",
@@ -6326,7 +6326,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":704,
        "title":"Up-sized contextually-based array",
        "description":"Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
@@ -6335,7 +6335,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":705,
        "title":"Expanded directional contingency",
        "description":"Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
@@ -6344,7 +6344,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":706,
        "title":"Reactive bottom-line capability",
        "description":"Etiam vel augue.",
@@ -6353,7 +6353,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":707,
        "title":"Persistent responsive toolset",
        "description":"Vivamus tortor. Duis mattis egestas metus.",
@@ -6362,7 +6362,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":708,
        "title":"Robust incremental algorithm",
        "description":"Maecenas pulvinar lobortis est.",
@@ -6371,7 +6371,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":709,
        "title":"Ergonomic eco-centric info-mediaries",
        "description":"Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
@@ -6380,7 +6380,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":710,
        "title":"Integrated multi-tasking core",
        "description":"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
@@ -6389,7 +6389,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":711,
        "title":"Future-proofed demand-driven hub",
        "description":"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.",
@@ -6398,7 +6398,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":712,
        "title":"De-engineered scalable infrastructure",
        "description":"Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.",
@@ -6407,7 +6407,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":713,
        "title":"Fundamental value-added analyzer",
        "description":"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
@@ -6416,7 +6416,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":714,
        "title":"Fully-configurable static system engine",
        "description":"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.",
@@ -6425,7 +6425,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":715,
        "title":"Quality-focused non-volatile moderator",
        "description":"Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
@@ -6434,7 +6434,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":716,
        "title":"Multi-layered next generation internet solution",
        "description":"Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
@@ -6443,7 +6443,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":717,
        "title":"Front-line tangible frame",
        "description":"In est risus, auctor sed, tristique in, tempus sit amet, sem.",
@@ -6452,7 +6452,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":718,
        "title":"Customer-focused disintermediate synergy",
        "description":"Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
@@ -6461,7 +6461,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":719,
        "title":"Implemented object-oriented capacity",
        "description":"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
@@ -6470,7 +6470,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":720,
        "title":"Expanded even-keeled definition",
        "description":"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
@@ -6479,7 +6479,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":721,
        "title":"User-centric system-worthy focus group",
        "description":"Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -6488,7 +6488,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":722,
        "title":"Open-architected high-level success",
        "description":"Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -6497,7 +6497,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":723,
        "title":"Future-proofed explicit model",
        "description":"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
@@ -6506,7 +6506,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":724,
        "title":"Reduced bandwidth-monitored installation",
        "description":"Suspendisse potenti.",
@@ -6515,7 +6515,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":725,
        "title":"Exclusive 5th generation approach",
        "description":"Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa.",
@@ -6524,7 +6524,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":726,
        "title":"Persistent methodical synergy",
        "description":"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
@@ -6533,7 +6533,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":727,
        "title":"Upgradable intangible framework",
        "description":"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo.",
@@ -6542,7 +6542,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":728,
        "title":"Persistent real-time concept",
        "description":"In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
@@ -6551,7 +6551,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":729,
        "title":"User-friendly 4th generation focus group",
        "description":"Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.",
@@ -6560,7 +6560,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":730,
        "title":"Focused executive instruction set",
        "description":"Proin interdum mauris non ligula pellentesque ultrices.",
@@ -6569,7 +6569,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":731,
        "title":"Reduced grid-enabled orchestration",
        "description":"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
@@ -6578,7 +6578,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":732,
        "title":"Cloned stable parallelism",
        "description":"In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.",
@@ -6587,7 +6587,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":733,
        "title":"Implemented logistical parallelism",
        "description":"Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat.",
@@ -6596,7 +6596,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":734,
        "title":"Visionary exuding intranet",
        "description":"Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus.",
@@ -6605,7 +6605,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":735,
        "title":"Configurable uniform middleware",
        "description":"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
@@ -6614,7 +6614,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":736,
        "title":"Right-sized asymmetric ability",
        "description":"Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
@@ -6623,7 +6623,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":737,
        "title":"Managed explicit intranet",
        "description":"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum.",
@@ -6632,7 +6632,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":738,
        "title":"Intuitive motivating access",
        "description":"Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo.",
@@ -6641,7 +6641,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":739,
        "title":"Mandatory empowering structure",
        "description":"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
@@ -6650,7 +6650,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":740,
        "title":"Re-contextualized value-added artificial intelligence",
        "description":"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo.",
@@ -6659,7 +6659,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":741,
        "title":"Function-based clear-thinking time-frame",
        "description":"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
@@ -6668,7 +6668,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":742,
        "title":"Organized transitional forecast",
        "description":"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
@@ -6677,7 +6677,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":743,
        "title":"Ameliorated value-added matrices",
        "description":"Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.",
@@ -6686,7 +6686,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":744,
        "title":"Fully-configurable optimal circuit",
        "description":"Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
@@ -6695,7 +6695,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":745,
        "title":"Inverse cohesive initiative",
        "description":"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
@@ -6704,7 +6704,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":746,
        "title":"Synchronised background info-mediaries",
        "description":"Aenean sit amet justo.",
@@ -6713,7 +6713,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":747,
        "title":"Pre-emptive clear-thinking analyzer",
        "description":"Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
@@ -6722,7 +6722,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":748,
        "title":"Networked 4th generation framework",
        "description":"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue.",
@@ -6731,7 +6731,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":749,
        "title":"Ergonomic eco-centric leverage",
        "description":"Pellentesque ultrices mattis odio.",
@@ -6740,7 +6740,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":750,
        "title":"Business-focused heuristic database",
        "description":"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.",
@@ -6749,7 +6749,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":751,
        "title":"Enterprise-wide secondary local area network",
        "description":"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis.",
@@ -6758,7 +6758,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":752,
        "title":"Synergistic maximized initiative",
        "description":"Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
@@ -6767,7 +6767,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":753,
        "title":"Digitized high-level instruction set",
        "description":"Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.",
@@ -6776,7 +6776,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":754,
        "title":"Ameliorated optimizing hub",
        "description":"Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.",
@@ -6785,7 +6785,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":755,
        "title":"Digitized incremental data-warehouse",
        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
@@ -6794,7 +6794,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":756,
        "title":"Public-key bi-directional approach",
        "description":"Aliquam non mauris. Morbi non lectus.",
@@ -6803,7 +6803,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":757,
        "title":"Profound full-range project",
        "description":"Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
@@ -6812,7 +6812,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":758,
        "title":"Configurable asymmetric customer loyalty",
        "description":"Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
@@ -6821,7 +6821,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":759,
        "title":"Optional asymmetric software",
        "description":"Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
@@ -6830,7 +6830,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":760,
        "title":"Secured clear-thinking challenge",
        "description":"Pellentesque at nulla.",
@@ -6839,7 +6839,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":761,
        "title":"Virtual optimal methodology",
        "description":"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
@@ -6848,7 +6848,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":762,
        "title":"User-friendly full-range alliance",
        "description":"Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.",
@@ -6857,7 +6857,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":763,
        "title":"Cross-platform bandwidth-monitored process improvement",
        "description":"Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
@@ -6866,7 +6866,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":764,
        "title":"Open-source 3rd generation support",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
@@ -6875,7 +6875,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":765,
        "title":"Integrated systematic approach",
        "description":"Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
@@ -6884,7 +6884,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":766,
        "title":"Right-sized directional strategy",
        "description":"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
@@ -6893,7 +6893,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":767,
        "title":"Profit-focused neutral knowledge base",
        "description":"Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.",
@@ -6902,7 +6902,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":768,
        "title":"Networked real-time archive",
        "description":"Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
@@ -6911,7 +6911,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":769,
        "title":"Cross-group zero tolerance capability",
        "description":"Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
@@ -6920,7 +6920,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":770,
        "title":"Ameliorated intermediate parallelism",
        "description":"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem.",
@@ -6929,7 +6929,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":771,
        "title":"Extended radical Graphic Interface",
        "description":"Nulla tellus.",
@@ -6938,7 +6938,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":772,
        "title":"Automated client-driven knowledge user",
        "description":"Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",
@@ -6947,7 +6947,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":773,
        "title":"Multi-tiered zero defect matrices",
        "description":"Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
@@ -6956,7 +6956,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":774,
        "title":"Fundamental radical hierarchy",
        "description":"Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.",
@@ -6965,7 +6965,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":775,
        "title":"Total asymmetric local area network",
        "description":"Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
@@ -6974,7 +6974,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":776,
        "title":"Pre-emptive multi-state moratorium",
        "description":"Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.",
@@ -6983,7 +6983,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":777,
        "title":"Digitized 4th generation encoding",
        "description":"In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
@@ -6992,7 +6992,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":778,
        "title":"Multi-lateral even-keeled implementation",
        "description":"Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.",
@@ -7001,7 +7001,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":779,
        "title":"Robust mobile synergy",
        "description":"Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -7010,7 +7010,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":780,
        "title":"Progressive systematic info-mediaries",
        "description":"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
@@ -7019,7 +7019,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":781,
        "title":"Mandatory didactic support",
        "description":"Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
@@ -7028,7 +7028,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":782,
        "title":"Ameliorated content-based architecture",
        "description":"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
@@ -7037,7 +7037,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":783,
        "title":"Enterprise-wide discrete customer loyalty",
        "description":"Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.",
@@ -7046,7 +7046,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":784,
        "title":"Progressive full-range methodology",
        "description":"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
@@ -7055,7 +7055,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":785,
        "title":"Profit-focused interactive circuit",
        "description":"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio.",
@@ -7064,7 +7064,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":786,
        "title":"Focused human-resource hub",
        "description":"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
@@ -7073,7 +7073,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":787,
        "title":"Enterprise-wide stable hub",
        "description":"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.",
@@ -7082,7 +7082,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":788,
        "title":"Stand-alone encompassing workforce",
        "description":"Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
@@ -7091,7 +7091,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":789,
        "title":"Team-oriented eco-centric throughput",
        "description":"Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat.",
@@ -7100,7 +7100,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":790,
        "title":"Team-oriented demand-driven success",
        "description":"Phasellus sit amet erat.",
@@ -7109,7 +7109,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":791,
        "title":"Stand-alone disintermediate matrices",
        "description":"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.",
@@ -7118,7 +7118,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":792,
        "title":"Programmable static functionalities",
        "description":"Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -7127,7 +7127,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":793,
        "title":"Mandatory bi-directional circuit",
        "description":"Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -7136,7 +7136,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":794,
        "title":"Advanced optimizing matrices",
        "description":"In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat.",
@@ -7145,7 +7145,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":795,
        "title":"Visionary zero tolerance workforce",
        "description":"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.",
@@ -7154,7 +7154,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":796,
        "title":"Grass-roots bi-directional matrix",
        "description":"In est risus, auctor sed, tristique in, tempus sit amet, sem.",
@@ -7163,7 +7163,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":797,
        "title":"Proactive stable groupware",
        "description":"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
@@ -7172,7 +7172,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":798,
        "title":"Stand-alone user-facing migration",
        "description":"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.",
@@ -7181,7 +7181,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":799,
        "title":"Self-enabling high-level instruction set",
        "description":"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.",
@@ -7190,7 +7190,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":800,
        "title":"Adaptive even-keeled access",
        "description":"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
@@ -7199,7 +7199,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":801,
        "title":"Cross-group asynchronous neural-net",
        "description":"Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
@@ -7208,7 +7208,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":802,
        "title":"Self-enabling executive attitude",
        "description":"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
@@ -7217,7 +7217,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":803,
        "title":"Automated tangible portal",
        "description":"Aenean sit amet justo. Morbi ut odio.",
@@ -7226,7 +7226,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":804,
        "title":"Networked analyzing data-warehouse",
        "description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
@@ -7235,7 +7235,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":805,
        "title":"Open-architected mission-critical strategy",
        "description":"Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.",
@@ -7244,7 +7244,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":806,
        "title":"Function-based homogeneous benchmark",
        "description":"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.",
@@ -7253,7 +7253,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":807,
        "title":"Reduced global initiative",
        "description":"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",
@@ -7262,7 +7262,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":808,
        "title":"Centralized 6th generation Graphic Interface",
        "description":"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",
@@ -7271,7 +7271,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":809,
        "title":"Front-line grid-enabled migration",
        "description":"Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
@@ -7280,7 +7280,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":810,
        "title":"Fundamental global open architecture",
        "description":"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.",
@@ -7289,7 +7289,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":811,
        "title":"Right-sized mobile website",
        "description":"Nunc nisl.",
@@ -7298,7 +7298,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":812,
        "title":"Versatile full-range secured line",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus.",
@@ -7307,7 +7307,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":813,
        "title":"Multi-lateral needs-based help-desk",
        "description":"Proin risus. Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.",
@@ -7316,7 +7316,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":814,
        "title":"Multi-lateral systemic intranet",
        "description":"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
@@ -7325,7 +7325,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":815,
        "title":"Streamlined content-based knowledge base",
        "description":"In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst.",
@@ -7334,7 +7334,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":816,
        "title":"Profound modular implementation",
        "description":"Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
@@ -7343,7 +7343,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":817,
        "title":"Future-proofed actuating budgetary management",
        "description":"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",
@@ -7352,7 +7352,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":818,
        "title":"Down-sized 24/7 time-frame",
        "description":"Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
@@ -7361,7 +7361,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":819,
        "title":"Self-enabling disintermediate knowledge base",
        "description":"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.",
@@ -7370,7 +7370,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":820,
        "title":"Reactive national customer loyalty",
        "description":"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
@@ -7379,7 +7379,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":821,
        "title":"Secured modular model",
        "description":"Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
@@ -7388,7 +7388,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":822,
        "title":"Synchronised intangible benchmark",
        "description":"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.",
@@ -7397,7 +7397,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":823,
        "title":"Mandatory multi-tasking standardization",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
@@ -7406,7 +7406,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":824,
        "title":"Mandatory mobile complexity",
        "description":"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
@@ -7415,7 +7415,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":825,
        "title":"Enterprise-wide didactic neural-net",
        "description":"Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",
@@ -7424,7 +7424,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":826,
        "title":"Object-based static initiative",
        "description":"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
@@ -7433,7 +7433,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":827,
        "title":"Public-key fresh-thinking benchmark",
        "description":"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum. In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo. Aliquam quis turpis eget elit sodales scelerisque.",
@@ -7442,7 +7442,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":828,
        "title":"Progressive secondary neural-net",
        "description":"Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
@@ -7451,7 +7451,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":829,
        "title":"Digitized clear-thinking hierarchy",
        "description":"Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
@@ -7460,7 +7460,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":830,
        "title":"Front-line holistic Graphic Interface",
        "description":"Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
@@ -7469,7 +7469,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":831,
        "title":"Customizable composite approach",
        "description":"Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
@@ -7478,7 +7478,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":832,
        "title":"Diverse local flexibility",
        "description":"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
@@ -7487,7 +7487,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":833,
        "title":"Re-engineered web-enabled monitoring",
        "description":"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
@@ -7496,7 +7496,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":834,
        "title":"Programmable impactful benchmark",
        "description":"In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst.",
@@ -7505,7 +7505,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":835,
        "title":"Open-source next generation frame",
        "description":"Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.",
@@ -7514,7 +7514,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":836,
        "title":"Optimized 3rd generation strategy",
        "description":"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
@@ -7523,7 +7523,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":837,
        "title":"User-centric next generation parallelism",
        "description":"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -7532,7 +7532,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":838,
        "title":"Public-key modular moderator",
        "description":"Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -7541,7 +7541,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":839,
        "title":"Re-contextualized demand-driven toolset",
        "description":"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
@@ -7550,7 +7550,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":840,
        "title":"Streamlined full-range installation",
        "description":"Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
@@ -7559,7 +7559,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":841,
        "title":"Switchable interactive implementation",
        "description":"Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.",
@@ -7568,7 +7568,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":842,
        "title":"Inverse value-added secured line",
        "description":"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
@@ -7577,7 +7577,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":843,
        "title":"Intuitive leading edge migration",
        "description":"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla.",
@@ -7586,7 +7586,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":844,
        "title":"Synchronised tertiary database",
        "description":"Phasellus in felis. Donec semper sapien a libero.",
@@ -7595,7 +7595,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":845,
        "title":"Universal human-resource complexity",
        "description":"Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.",
@@ -7604,7 +7604,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":846,
        "title":"Profit-focused discrete service-desk",
        "description":"Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis.",
@@ -7613,7 +7613,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":847,
        "title":"Reduced web-enabled extranet",
        "description":"Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
@@ -7622,7 +7622,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":848,
        "title":"Persevering 3rd generation array",
        "description":"In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
@@ -7631,7 +7631,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":849,
        "title":"Visionary cohesive moderator",
        "description":"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.",
@@ -7640,7 +7640,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":850,
        "title":"Enhanced 3rd generation throughput",
        "description":"Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo.",
@@ -7649,7 +7649,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":851,
        "title":"Optimized cohesive installation",
        "description":"Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem.",
@@ -7658,7 +7658,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":852,
        "title":"Innovative asymmetric infrastructure",
        "description":"Nulla mollis molestie lorem. Quisque ut erat.",
@@ -7667,7 +7667,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":853,
        "title":"Versatile national internet solution",
        "description":"Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
@@ -7676,7 +7676,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":854,
        "title":"Balanced impactful moratorium",
        "description":"Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.",
@@ -7685,7 +7685,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":855,
        "title":"Synergistic contextually-based functionalities",
        "description":"Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.",
@@ -7694,7 +7694,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":856,
        "title":"Right-sized local local area network",
        "description":"Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
@@ -7703,7 +7703,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":857,
        "title":"Balanced bi-directional access",
        "description":"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
@@ -7712,7 +7712,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":858,
        "title":"Persevering multi-state orchestration",
        "description":"Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
@@ -7721,7 +7721,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":859,
        "title":"Open-architected client-server algorithm",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend.",
@@ -7730,7 +7730,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":860,
        "title":"Enterprise-wide attitude-oriented neural-net",
        "description":"Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",
@@ -7739,7 +7739,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":861,
        "title":"Visionary hybrid capacity",
        "description":"Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",
@@ -7748,7 +7748,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":862,
        "title":"Versatile systematic challenge",
        "description":"Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
@@ -7757,7 +7757,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":863,
        "title":"Function-based tertiary moratorium",
        "description":"Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
@@ -7766,7 +7766,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":864,
        "title":"Right-sized clear-thinking website",
        "description":"Curabitur in libero ut massa volutpat convallis.",
@@ -7775,7 +7775,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":865,
        "title":"Multi-lateral discrete encryption",
        "description":"Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.",
@@ -7784,7 +7784,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":866,
        "title":"Synchronised demand-driven standardization",
        "description":"Vestibulum rutrum rutrum neque.",
@@ -7793,7 +7793,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":867,
        "title":"Vision-oriented discrete groupware",
        "description":"Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc.",
@@ -7802,7 +7802,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":868,
        "title":"Cross-group executive hardware",
        "description":"Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.",
@@ -7811,7 +7811,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":869,
        "title":"Distributed contextually-based orchestration",
        "description":"Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
@@ -7820,7 +7820,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":870,
        "title":"Total discrete productivity",
        "description":"Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
@@ -7829,7 +7829,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":871,
        "title":"Fundamental neutral firmware",
        "description":"In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.",
@@ -7838,7 +7838,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":872,
        "title":"Self-enabling regional software",
        "description":"Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius.",
@@ -7847,7 +7847,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":873,
        "title":"Organic motivating info-mediaries",
        "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum.",
@@ -7856,7 +7856,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":874,
        "title":"Right-sized solution-oriented info-mediaries",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
@@ -7865,7 +7865,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":875,
        "title":"Polarised value-added standardization",
        "description":"Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -7874,7 +7874,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":876,
        "title":"Organic object-oriented frame",
        "description":"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
@@ -7883,7 +7883,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":877,
        "title":"Inverse optimizing knowledge base",
        "description":"Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.",
@@ -7892,7 +7892,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":878,
        "title":"Integrated dynamic project",
        "description":"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
@@ -7901,7 +7901,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":879,
        "title":"Universal cohesive service-desk",
        "description":"Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
@@ -7910,7 +7910,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":880,
        "title":"Visionary scalable core",
        "description":"Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
@@ -7919,7 +7919,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":881,
        "title":"Decentralized secondary groupware",
        "description":"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
@@ -7928,7 +7928,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":882,
        "title":"Diverse reciprocal capability",
        "description":"Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.",
@@ -7937,7 +7937,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":883,
        "title":"Devolved bi-directional open system",
        "description":"In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum.",
@@ -7946,7 +7946,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":884,
        "title":"Monitored analyzing approach",
        "description":"Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
@@ -7955,7 +7955,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":885,
        "title":"Multi-channelled attitude-oriented attitude",
        "description":"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.",
@@ -7964,7 +7964,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":886,
        "title":"Face to face uniform orchestration",
        "description":"Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis.",
@@ -7973,7 +7973,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":887,
        "title":"Organic full-range productivity",
        "description":"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
@@ -7982,7 +7982,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":888,
        "title":"Compatible multimedia database",
        "description":"In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.",
@@ -7991,7 +7991,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":889,
        "title":"Enterprise-wide object-oriented firmware",
        "description":"Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",
@@ -8000,7 +8000,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":890,
        "title":"Phased composite architecture",
        "description":"Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus.",
@@ -8009,7 +8009,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":891,
        "title":"Exclusive 5th generation process improvement",
        "description":"In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
@@ -8018,7 +8018,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":892,
        "title":"Synchronised exuding budgetary management",
        "description":"Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.",
@@ -8027,7 +8027,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":893,
        "title":"Secured reciprocal data-warehouse",
        "description":"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
@@ -8036,7 +8036,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":894,
        "title":"Business-focused methodical budgetary management",
        "description":"Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
@@ -8045,7 +8045,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":895,
        "title":"Monitored contextually-based website",
        "description":"Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
@@ -8054,7 +8054,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":896,
        "title":"Fully-configurable stable collaboration",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",
@@ -8063,7 +8063,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":897,
        "title":"Assimilated optimizing array",
        "description":"Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.",
@@ -8072,7 +8072,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":898,
        "title":"Monitored dedicated projection",
        "description":"Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.",
@@ -8081,7 +8081,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":899,
        "title":"Monitored methodical frame",
        "description":"Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
@@ -8090,7 +8090,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":900,
        "title":"Polarised real-time budgetary management",
        "description":"Nulla tellus.",
@@ -8099,7 +8099,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":901,
        "title":"Robust bifurcated extranet",
        "description":"Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
@@ -8108,7 +8108,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":902,
        "title":"Centralized context-sensitive throughput",
        "description":"In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt.",
@@ -8117,7 +8117,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":903,
        "title":"Intuitive neutral support",
        "description":"Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
@@ -8126,7 +8126,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":904,
        "title":"Cloned secondary knowledge user",
        "description":"Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
@@ -8135,7 +8135,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":905,
        "title":"Multi-lateral explicit protocol",
        "description":"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.",
@@ -8144,7 +8144,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":906,
        "title":"Advanced regional archive",
        "description":"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
@@ -8153,7 +8153,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":907,
        "title":"Synergistic bifurcated archive",
        "description":"Suspendisse potenti.",
@@ -8162,7 +8162,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":908,
        "title":"Synergized methodical knowledge user",
        "description":"Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla.",
@@ -8171,7 +8171,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":909,
        "title":"Expanded eco-centric portal",
        "description":"Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
@@ -8180,7 +8180,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":910,
        "title":"Enhanced human-resource matrices",
        "description":"Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
@@ -8189,7 +8189,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":911,
        "title":"Centralized empowering open architecture",
        "description":"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio.",
@@ -8198,7 +8198,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":912,
        "title":"Public-key systematic customer loyalty",
        "description":"Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",
@@ -8207,7 +8207,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":913,
        "title":"Mandatory mobile strategy",
        "description":"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
@@ -8216,7 +8216,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":914,
        "title":"Centralized human-resource time-frame",
        "description":"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti.",
@@ -8225,7 +8225,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":915,
        "title":"Function-based local workforce",
        "description":"Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
@@ -8234,7 +8234,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":916,
        "title":"Exclusive optimizing portal",
        "description":"Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
@@ -8243,7 +8243,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":917,
        "title":"Integrated holistic hierarchy",
        "description":"Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
@@ -8252,7 +8252,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":918,
        "title":"Triple-buffered optimal frame",
        "description":"Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.",
@@ -8261,7 +8261,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":919,
        "title":"Distributed demand-driven benchmark",
        "description":"Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
@@ -8270,7 +8270,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":920,
        "title":"Advanced needs-based leverage",
        "description":"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",
@@ -8279,7 +8279,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":921,
        "title":"Public-key encompassing moratorium",
        "description":"Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.",
@@ -8288,7 +8288,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":922,
        "title":"Programmable bandwidth-monitored service-desk",
        "description":"Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.",
@@ -8297,7 +8297,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":923,
        "title":"Expanded clear-thinking projection",
        "description":"Nullam molestie nibh in lectus.",
@@ -8306,7 +8306,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":924,
        "title":"Synergistic cohesive instruction set",
        "description":"Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
@@ -8315,7 +8315,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":925,
        "title":"Distributed disintermediate installation",
        "description":"Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero. Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo.",
@@ -8324,7 +8324,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":926,
        "title":"Synergistic zero tolerance attitude",
        "description":"Morbi a ipsum. Integer a nibh. In quis justo.",
@@ -8333,7 +8333,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":927,
        "title":"Profound incremental focus group",
        "description":"Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.",
@@ -8342,7 +8342,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":928,
        "title":"Switchable zero administration function",
        "description":"Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl.",
@@ -8351,7 +8351,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":929,
        "title":"Persevering global emulation",
        "description":"Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.",
@@ -8360,7 +8360,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":930,
        "title":"Horizontal logistical archive",
        "description":"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.",
@@ -8369,7 +8369,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":931,
        "title":"Enhanced 24/7 local area network",
        "description":"Nulla facilisi. Cras non velit nec nisi vulputate nonummy.",
@@ -8378,7 +8378,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":932,
        "title":"Decentralized upward-trending concept",
        "description":"Ut tellus. Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy.",
@@ -8387,7 +8387,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":933,
        "title":"Up-sized holistic synergy",
        "description":"Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi.",
@@ -8396,7 +8396,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":934,
        "title":"Multi-lateral composite hub",
        "description":"Cras non velit nec nisi vulputate nonummy.",
@@ -8405,7 +8405,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":935,
        "title":"Inverse explicit access",
        "description":"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum.",
@@ -8414,7 +8414,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":936,
        "title":"Monitored contextually-based task-force",
        "description":"Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.",
@@ -8423,7 +8423,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":937,
        "title":"Secured solution-oriented encryption",
        "description":"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl.",
@@ -8432,7 +8432,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":938,
        "title":"Horizontal holistic success",
        "description":"In quis justo.",
@@ -8441,7 +8441,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":939,
        "title":"Diverse mission-critical orchestration",
        "description":"Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
@@ -8450,7 +8450,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":940,
        "title":"Profound interactive analyzer",
        "description":"Nullam varius. Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.",
@@ -8459,7 +8459,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":941,
        "title":"Right-sized transitional utilisation",
        "description":"Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio.",
@@ -8468,7 +8468,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":942,
        "title":"Horizontal zero tolerance encoding",
        "description":"Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est. Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.",
@@ -8477,7 +8477,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":943,
        "title":"Grass-roots 6th generation database",
        "description":"Donec dapibus.",
@@ -8486,7 +8486,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":944,
        "title":"User-centric secondary ability",
        "description":"Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
@@ -8495,7 +8495,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":945,
        "title":"De-engineered executive hardware",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -8504,7 +8504,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":946,
        "title":"Configurable executive support",
        "description":"Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam. Nam tristique tortor eu pede.",
@@ -8513,7 +8513,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":947,
        "title":"Progressive solution-oriented installation",
        "description":"Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat. Nulla nisl. Nunc nisl.",
@@ -8522,7 +8522,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":948,
        "title":"Organized systematic matrices",
        "description":"Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui.",
@@ -8531,7 +8531,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":949,
        "title":"Synergistic demand-driven moderator",
        "description":"Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.",
@@ -8540,7 +8540,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":950,
        "title":"Implemented background open system",
        "description":"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus. In sagittis dui vel nisl. Duis ac nibh.",
@@ -8549,7 +8549,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":951,
        "title":"Switchable content-based software",
        "description":"Nulla facilisi. Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero.",
@@ -8558,7 +8558,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":952,
        "title":"Synergized contextually-based contingency",
        "description":"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst. Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
@@ -8567,7 +8567,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":953,
        "title":"User-centric stable intranet",
        "description":"Nunc purus. Phasellus in felis.",
@@ -8576,7 +8576,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":954,
        "title":"Public-key dedicated knowledge base",
        "description":"Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti.",
@@ -8585,7 +8585,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":955,
        "title":"Reactive asynchronous knowledge base",
        "description":"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
@@ -8594,7 +8594,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":956,
        "title":"Advanced regional focus group",
        "description":"Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
@@ -8603,7 +8603,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":957,
        "title":"Public-key object-oriented model",
        "description":"Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
@@ -8612,7 +8612,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":958,
        "title":"Decentralized demand-driven algorithm",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
@@ -8621,7 +8621,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":959,
        "title":"Innovative scalable success",
        "description":"Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl. Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.",
@@ -8630,7 +8630,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":960,
        "title":"Focused tertiary encoding",
        "description":"Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est.",
@@ -8639,7 +8639,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":961,
        "title":"Exclusive next generation array",
        "description":"Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.",
@@ -8648,7 +8648,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":962,
        "title":"Quality-focused uniform toolset",
        "description":"Phasellus in felis. Donec semper sapien a libero. Nam dui.",
@@ -8657,7 +8657,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":963,
        "title":"Robust intermediate middleware",
        "description":"In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.",
@@ -8666,7 +8666,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":964,
        "title":"Networked object-oriented array",
        "description":"Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque. Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus. Phasellus in felis. Donec semper sapien a libero. Nam dui. Proin leo odio, porttitor id, consequat in, consequat ut, nulla.",
@@ -8675,7 +8675,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":965,
        "title":"Enhanced foreground info-mediaries",
        "description":"Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",
@@ -8684,7 +8684,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":966,
        "title":"Enhanced analyzing monitoring",
        "description":"Aliquam non mauris.",
@@ -8693,7 +8693,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":967,
        "title":"Multi-lateral systematic adapter",
        "description":"Duis mattis egestas metus. Aenean fermentum.",
@@ -8702,7 +8702,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":968,
        "title":"Decentralized uniform info-mediaries",
        "description":"Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci.",
@@ -8711,7 +8711,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":969,
        "title":"Compatible impactful approach",
        "description":"Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -8720,7 +8720,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":970,
        "title":"Networked intangible time-frame",
        "description":"Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
@@ -8729,7 +8729,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":971,
        "title":"Extended executive framework",
        "description":"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus. Curabitur at ipsum ac tellus semper interdum.",
@@ -8738,7 +8738,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":972,
        "title":"Up-sized incremental infrastructure",
        "description":"Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.",
@@ -8747,7 +8747,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":973,
        "title":"Multi-channelled asynchronous capacity",
        "description":"Sed accumsan felis. Ut at dolor quis odio consequat varius. Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
@@ -8756,7 +8756,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":974,
        "title":"Function-based grid-enabled time-frame",
        "description":"Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum.",
@@ -8765,7 +8765,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":975,
        "title":"Versatile global strategy",
        "description":"In eleifend quam a odio. In hac habitasse platea dictumst.",
@@ -8774,7 +8774,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":976,
        "title":"Persevering hybrid model",
        "description":"Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.",
@@ -8783,7 +8783,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":977,
        "title":"Programmable 24/7 application",
        "description":"Vestibulum rutrum rutrum neque.",
@@ -8792,7 +8792,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":978,
        "title":"Open-source encompassing contingency",
        "description":"Duis at velit eu est congue elementum.",
@@ -8801,7 +8801,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":979,
        "title":"Up-sized discrete strategy",
        "description":"Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus. Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
@@ -8810,7 +8810,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":980,
        "title":"Customer-focused needs-based access",
        "description":"Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
@@ -8819,7 +8819,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":981,
        "title":"Open-architected scalable encoding",
        "description":"Donec posuere metus vitae ipsum. Aliquam non mauris. Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem. Sed sagittis.",
@@ -8828,7 +8828,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":982,
        "title":"Multi-lateral dedicated challenge",
        "description":"Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.",
@@ -8837,7 +8837,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":983,
        "title":"Vision-oriented systematic open system",
        "description":"Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
@@ -8846,7 +8846,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":984,
        "title":"Configurable non-volatile groupware",
        "description":"Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo.",
@@ -8855,7 +8855,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":985,
        "title":"Virtual impactful matrices",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue.",
@@ -8864,7 +8864,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":986,
        "title":"Sharable web-enabled interface",
        "description":"Aenean sit amet justo. Morbi ut odio.",
@@ -8873,7 +8873,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":987,
        "title":"Organized systematic database",
        "description":"Curabitur convallis. Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",
@@ -8882,7 +8882,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":988,
        "title":"Seamless optimizing encoding",
        "description":"Nulla ut erat id mauris vulputate elementum.",
@@ -8891,7 +8891,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":989,
        "title":"Streamlined background circuit",
        "description":"Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor. Duis mattis egestas metus.",
@@ -8900,7 +8900,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":990,
        "title":"Cross-group next generation alliance",
        "description":"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.",
@@ -8909,7 +8909,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":991,
        "title":"Grass-roots 3rd generation standardization",
        "description":"Nullam molestie nibh in lectus. Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam vel augue. Vestibulum rutrum rutrum neque.",
@@ -8918,7 +8918,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":992,
        "title":"Customer-focused multimedia orchestration",
        "description":"Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque. Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
@@ -8927,7 +8927,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":993,
        "title":"Organized multimedia function",
        "description":"In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem. Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula. Suspendisse ornare consequat lectus.",
@@ -8936,7 +8936,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":994,
        "title":"Devolved full-range alliance",
        "description":"Duis mattis egestas metus. Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
@@ -8945,7 +8945,7 @@ export default (notes = [
        "hearted":true,
        "favorite":false
     },
-    {  
+    {
        "id":995,
        "title":"Expanded didactic local area network",
        "description":"In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui.",
@@ -8954,7 +8954,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":996,
        "title":"Fundamental grid-enabled task-force",
        "description":"Nulla nisl. Nunc nisl. Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus. Duis at velit eu est congue elementum.",
@@ -8963,7 +8963,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":997,
        "title":"Horizontal 6th generation access",
        "description":"Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.",
@@ -8972,7 +8972,7 @@ export default (notes = [
        "hearted":true,
        "favorite":true
     },
-    {  
+    {
        "id":998,
        "title":"Stand-alone mission-critical implementation",
        "description":"Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam. Cras pellentesque volutpat dui. Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti. Nullam porttitor lacus at turpis.",
@@ -8981,7 +8981,7 @@ export default (notes = [
        "hearted":false,
        "favorite":false
     },
-    {  
+    {
        "id":999,
        "title":"Self-enabling optimizing architecture",
        "description":"Aliquam erat volutpat. In congue. Etiam justo. Etiam pretium iaculis justo. In hac habitasse platea dictumst. Etiam faucibus cursus urna.",
@@ -8990,7 +8990,7 @@ export default (notes = [
        "hearted":false,
        "favorite":true
     },
-    {  
+    {
        "id":1000,
        "title":"Re-contextualized global migration",
        "description":"Nulla tellus. In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus. Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",

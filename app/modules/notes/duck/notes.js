@@ -33,15 +33,11 @@ export default function reducer(state = initialState, action = {}) {
       return update(state, {
         load: { loading: { $set: true } }
       });
-      console.log(action);
-      break;
     case `${FETCH_NOTES}_${REJECTED}`:
       return update(state, {
         load: load =>
           update(load, { loading: { $set: false }, error: "I am a error" })
       });
-      console.log(action);
-      break;
     case `${FETCH_NOTES}_${FULFILLED}`:
       return update(state, {
         load: { loading: { $set: false } },
@@ -53,7 +49,7 @@ export default function reducer(state = initialState, action = {}) {
           $apply: data =>
             data.map(item => {
               if (action.payload.id === item.id) {
-                let value = !item.hearted;
+                const value = !item.hearted;
                 const updatedNote = { ...item, hearted: value };
                 return updatedNote;
               }
@@ -67,7 +63,7 @@ export default function reducer(state = initialState, action = {}) {
           $apply: data =>
             data.map(item => {
               if (action.payload.id === item.id) {
-                let value = !item.favorite;
+                const value = !item.favorite;
                 return { ...item, favorite: value };
               }
               return item;
@@ -76,7 +72,7 @@ export default function reducer(state = initialState, action = {}) {
       });
     case `${DELETE_NOTE}_${FULFILLED}`:
       return update(state, {
-        data: data => data.filter(item => item.id != action.payload.id)
+        data: data => data.filter(item => item.id !== action.payload.id)
       });
     case `${UPDATE_NOTE}_${FULFILLED}`:
       return update(state, {
@@ -92,14 +88,12 @@ export default function reducer(state = initialState, action = {}) {
       return update(state, {
         data: { $push: [action.payload] }
       });
-      break;
     default:
       return state;
   }
 }
 
 export const fetchNotes = (favourite, hearted) => {
-  console.log("from home","favourite", favourite, "hearted", hearted);
   return {
     type: FETCH_NOTES,
     payload: getNotes(favourite, hearted).catch(error => {

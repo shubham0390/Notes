@@ -2,14 +2,12 @@ import React, { Component } from "react";
 import {
   View,
   Text,
-  StyleSheet,
   ActivityIndicator,
   TouchableNativeFeedback,
   FlatList,
   InteractionManager
 } from "react-native";
 import { connect } from "react-redux";
-import { bindActionCreators } from "redux";
 import { Actions } from "react-native-router-flux";
 import Icon from "react-native-vector-icons/MaterialIcons";
 import Swipeout from "react-native-swipeout";
@@ -31,10 +29,6 @@ class NoteListComponent extends Component {
       refreshing: false,
       activeRow: null,
       isOpen: false,
-      filter:{
-        favourite: false,
-        hearted: false
-      }
     };
   }
 
@@ -58,9 +52,9 @@ class NoteListComponent extends Component {
         menu={menu}
         isOpen={this.state.isOpen}
         menuPosition="right"
-        autoClosing={true}
+        autoClosing
         openMenuOffset={150}
-        bounceBackOnOverdraw={true}
+        bounceBackOnOverdraw
         onChange={isOpen => this.updateMenuState(isOpen)}
       >
         <View style={styles.container}>
@@ -122,10 +116,8 @@ class NoteListComponent extends Component {
       autoClose: true,
       backgroundColor: "#FFFFFF",
       close: info.item.noteId !== this.state.activeRow,
-      onClose: (secId, rowId, direction) =>
-        this.onSwipeClose(info.item, rowId, direction),
-      onOpen: (secId, rowId, direction) =>
-        this.onSwipeOpen(info.item, rowId, direction),
+      onClose: () => this.onSwipeClose(info.item,),
+      onOpen: () => this.onSwipeOpen(info.item),
       right: [
         {
           onPress: () => this.onDeleteItem(info.item),
@@ -172,17 +164,9 @@ class NoteListComponent extends Component {
   }
 
   onFilterApply = (favourite, hearted) => {
-
-    console.log("From Menu","favourite", favourite, "hearted", hearted);
-    console.log("state",this.state)
     this.setState({
       isOpen: false,
-      filter: {
-        hearted: hearted,
-        favourite: favourite
-      }
     });
-    console.log("state updated",this.state)
     this.props.fetchNotes(favourite, hearted);
   };
 
@@ -204,11 +188,11 @@ class NoteListComponent extends Component {
 
   handleRefresh = () => {};
 
-  onSwipeOpen(item, rowId, direction) {
+  onSwipeOpen(item) {
     this.setState({ activeRow: item.noteId });
   }
 
-  onSwipeClose(item, rowId, direction) {
+  onSwipeClose(item) {
     if (
       item.noteId === this.state.activeRow &&
       typeof direction !== "undefined"

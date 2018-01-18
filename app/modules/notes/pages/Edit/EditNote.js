@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import Icon from "react-native-vector-icons/MaterialIcons";
+import { Actions } from "react-native-router-flux";
 import {
   View,
   Text,
   TextInput,
-  ActivityIndicator,
   TouchableNativeFeedback
 } from "react-native";
 
 import styles from "./style";
-import { Actions } from "react-native-router-flux";
 import { saveNote, updateNote } from "../../duck/notes";
 
 class EditNote extends Component {
@@ -70,9 +69,9 @@ class EditNote extends Component {
         <TextInput
           style={styles.title}
           value={this.state.note.title}
-          multiline={true}
+          multiline
           autoCapitalize="sentences"
-          underlineColorAndroid={"rgba(0,0,0,0)"}
+          underlineColorAndroid="rgba(0,0,0,0)"
           returnKeyType="next"
           spellCheck
           placeholder="Enter title here!"
@@ -90,8 +89,8 @@ class EditNote extends Component {
           style={styles.description}
           placeholder="Enter description here!"
           value={this.state.note.description}
-          underlineColorAndroid={"rgba(0,0,0,0)"}
-          multiline={true}
+          underlineColorAndroid="rgba(0,0,0,0)"
+          multiline
           autoGrow
           returnKeyType="done"
           spellCheck
@@ -110,7 +109,6 @@ class EditNote extends Component {
   };
 
   onSaveClicked = () => {
-    const date = new Date();
     if (this.props.note) {
       const note = {
         ...this.state.note,

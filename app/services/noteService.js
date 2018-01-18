@@ -9,7 +9,6 @@ export const updateNoteFavoriteStatus = note => {
         resolve(note);
       }, 500);
     },
-    reject => {}
   );
 };
 
@@ -20,7 +19,6 @@ export const updateNoteHeartStatus = note => {
         resolve(note);
       }, 500);
     },
-    reject => {}
   );
 };
 
@@ -31,7 +29,6 @@ export const deleteNoteWithId = note => {
         resolve(note);
       }, 500);
     },
-    reject => {}
   );
 };
 
@@ -42,12 +39,10 @@ export const updateNotes = note => {
         resolve(note);
       }, 500);
     },
-    reject => {}
   );
 };
 
 export const getNotes = (favourite, hearted) => {
-  console.log("From Service", "favourite", favourite, "hearted", hearted);
   return new Promise(
     resolve => {
       setTimeout(() => {
@@ -76,7 +71,6 @@ export const getNotes = (favourite, hearted) => {
         resolve(notes);
       }, 2000);
     },
-    reject => {}
   );
 };
 
@@ -84,11 +78,10 @@ export const saveNotes = note => {
   return new Promise(
     resolve => {
       setTimeout(() => {
-        NOTE_ID = NOTE_ID + 1;
-        let updateNote = { ...note, id: NOTE_ID };
+        NOTE_ID += 1;
+        const updateNote = { ...note, id: NOTE_ID };
         resolve(updateNote);
       }, 500);
     },
-    reject => {}
   );
 };

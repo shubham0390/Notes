@@ -61,17 +61,17 @@ export default class NoteListItem extends Component {
   getHeartIconColor = hearted => {
     if (hearted) {
       return "#DB394F";
-    } else {
-      return "#F1F1F1";
     }
+      return "#F1F1F1";
+
   };
 
   getFavoriteIconColor = favorite => {
     if (favorite) {
       return "#EDCF39";
-    } else {
-      return "#F1F1F1";
     }
+      return "#F1F1F1";
+
   };
 
   onHeartButtonClicked = () => {

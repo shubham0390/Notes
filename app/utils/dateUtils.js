@@ -26,13 +26,13 @@ export const dayName = [
 export const getDisplaybleDate = date => {
   const todayDate = new Date();
 
-  var noteDate = new Date(0);
+  const noteDate = new Date(0);
   noteDate.setUTCSeconds(date);
   let prifix = "";
   let postfix = "";
-  if (noteDate.getFullYear() != todayDate.getFullYear()) {
+  if (noteDate.getFullYear() !== todayDate.getFullYear()) {
     prifix = monthNames[noteDate.getMonth()];
-  } else if (noteDate.getMonth() != todayDate.getMonth()) {
+  } else if (noteDate.getMonth() !== todayDate.getMonth()) {
     prifix = monthNames[noteDate.getMonth()];
   } else {
     prifix = monthNames[noteDate.getDay()];
@@ -42,5 +42,5 @@ export const getDisplaybleDate = date => {
   } else {
     postfix = " AM";
   }
-  return prifix + " at " + noteDate.toLocaleTimeString() + postfix;
+  return `${prifix  } at ${  noteDate.toLocaleTimeString()  }${postfix}`;
 };

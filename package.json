@@ -8,7 +8,8 @@
     "test": "jest",
     "prettier": "prettier — single-quote — trailing-comma all — write \"src/**/*.js\"",
     "flow": "flow",
-    "lint": "eslint app"
+    "lint": "eslint app",
+    "lint-fix": "eslint --fix . --ext .js"
   },
   "dependencies": {
     "immutability-helper": "^2.6.4",

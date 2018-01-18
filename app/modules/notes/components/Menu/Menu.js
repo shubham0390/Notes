@@ -1,16 +1,11 @@
 import React from "react";
-import PropTypes from "prop-types";
 import {
-  Dimensions,
   View,
-  Image,
   Text,
   TouchableNativeFeedback
 } from "react-native";
 import Icon from "react-native-vector-icons/MaterialIcons";
 import styles from "./style";
-
-const window = Dimensions.get("window");
 
 export default class Menu extends React.PureComponent {
   constructor(props) {
@@ -77,9 +72,9 @@ export default class Menu extends React.PureComponent {
   getSelectedColor = isSelected => {
     if (isSelected) {
       return "#89D7BA";
-    } else {
-      return "#DDDDDD";
     }
+      return "#DDDDDD";
+
   };
 
   onFilterApply = () => {

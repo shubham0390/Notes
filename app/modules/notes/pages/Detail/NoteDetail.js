@@ -1,16 +1,15 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import Icon from "react-native-vector-icons/MaterialIcons";
+import { Actions } from "react-native-router-flux";
 import {
   View,
   Text,
-  TextInput,
-  ActivityIndicator,
   TouchableNativeFeedback
 } from "react-native";
 import { getDisplaybleDate } from "../../../../utils/dateUtils";
 import styles from "./style";
-import { Actions } from "react-native-router-flux";
+
 
 class NoteDetail extends Component {
   render() {
@@ -52,7 +51,7 @@ class NoteDetail extends Component {
         <View style={styles.titleContainer}>
           <Text style={styles.title}>{this.props.note.title}</Text>
           <Text style={styles.date}>
-            {"Last updated: " + getDisplaybleDate(this.props.note.modifiedDate)}
+            {`Last updated: ${  getDisplaybleDate(this.props.note.modifiedDate)}`}
           </Text>
         </View>
       </View>
@@ -70,7 +69,7 @@ class NoteDetail extends Component {
 function mapStateToProps(state, ownProps) {
  const note =  state.notes.data.find(item => {return item.id === ownProps.param.id});
   return {
-    note: note
+    note
   };
 }
 export default connect(mapStateToProps)(NoteDetail);
