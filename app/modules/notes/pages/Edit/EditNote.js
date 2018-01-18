@@ -11,7 +11,7 @@ import {
 
 import styles from "./style";
 import { Actions } from "react-native-router-flux";
-import { saveNote, updateNote } from "../../duck/home";
+import { saveNote, updateNote } from "../../duck/notes";
 
 class EditNote extends Component {
   constructor(props) {

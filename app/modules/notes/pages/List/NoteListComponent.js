@@ -22,9 +22,9 @@ import {
   toggleHeart,
   toggleFavorite,
   deleteNote
-} from "../../duck/home";
+} from "../../duck/notes";
 
-class Home extends Component {
+class NoteListComponent extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -237,4 +237,4 @@ function mapStateToProps(state) {
   };
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Home);
+export default connect(mapStateToProps, mapDispatchToProps)(NoteListComponent);

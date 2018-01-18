@@ -1,3 +1,3 @@
-import List from "./List";
+import NoteListComponent from "./NoteListComponent";
 
-export default List;
+export default NoteListComponent;
