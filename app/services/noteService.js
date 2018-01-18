@@ -1,5 +1,4 @@
 import Notes from "../modules/notes/fixtures/notes";
-import { updatedNote } from "../modules/notes/duck/home";
 
 let NOTE_ID = 2000;
 
