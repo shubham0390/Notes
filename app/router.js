@@ -11,7 +11,7 @@ export const Scenes = Actions.create(
   <Scene key="root">
     <Scene key="landing" hideNavBar={true} component={Landing} />
     <Scene initial key="home" hideNavBar={true} component={List} />
-    <Scene key="edit" hideNavBar={true} component={EditNote} />
     <Scene key="detail" hideNavBar={true} component={NoteDetail} />
+    <Scene key="edit" hideNavBar={true} component={EditNote} />
   </Scene>
 );

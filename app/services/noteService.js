@@ -3,7 +3,7 @@ import { updatedNote } from "../modules/notes/duck/home";
 
 let NOTE_ID = 2000;
 
-export const updateNoteStartStatus = note => {
+export const updateNoteFavoriteStatus = note => {
   return new Promise(
     resolve => {
       setTimeout(() => {
@@ -14,7 +14,7 @@ export const updateNoteStartStatus = note => {
   );
 };
 
-export const updateNoteFavoriteStatus = note => {
+export const updateNoteHeartStatus = note => {
   return new Promise(
     resolve => {
       setTimeout(() => {
@@ -48,35 +48,32 @@ export const updateNotes = note => {
 };
 
 export const getNotes = (favourite, hearted) => {
+  console.log("From Service", "favourite", favourite, "hearted", hearted);
   return new Promise(
     resolve => {
       setTimeout(() => {
         let notes;
         notes = Notes.slice(0, 4);
-        if (favourite || hearted) {
-          notes = notes.filter(note => {
-            let isValid = true;
-            if (!favourite) {
-              isValid = isValid || true;
-            } else if (favourite && note.favorite) {
-              isValid = true;
-            } else {
-              isValid = false;
-            }
-            if (!hearted) {
-              isValid = isValid || true;
-            } else if (hearted && note.hearted) {
-              isValid = isValid || true;
-            } else {
-              isValid = isValid || true;
-            }
-            if (isValid) {
-              return note;
-            }
-          });
-        } else {
-          notes = Notes.slice(0, 4);
+
+        if (!favourite && !hearted) {
+          resolve(notes);
+          return;
         }
+        if (favourite && hearted) {
+        notes = notes.filter(note => {
+            if(note.favorite && note.hearted)
+              return note;
+          })
+          resolve(notes)
+        }
+        notes = notes.filter(note => {
+          if(favourite && note.favorite){
+            return note;
+          }
+          if(hearted && note.hearted){
+            return note;
+          }
+        });
         resolve(notes);
       }, 2000);
     },
@@ -90,7 +87,7 @@ export const saveNotes = note => {
       setTimeout(() => {
         NOTE_ID = NOTE_ID + 1;
         let updateNote = { ...note, id: NOTE_ID };
-        resolve(updatedNote);
+        resolve(updateNote);
       }, 500);
     },
     reject => {}

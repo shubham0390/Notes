@@ -13,11 +13,11 @@ import styles from "./style";
 import { Actions } from "react-native-router-flux";
 import { saveNote, updateNote } from "../../duck/home";
 
-class NoteDetail extends Component {
+class EditNote extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      note: props.note ? props.note : { note: { titile: "", description: "" } }
+      note: props.note ? props.note : { title: "", description: "" }
     };
   }
   render() {
@@ -112,23 +112,21 @@ class NoteDetail extends Component {
   onSaveClicked = () => {
     const date = new Date();
     if (this.props.note) {
-      let note = {
+      const note = {
         ...this.state.note,
-        modifiedDate: date.getUTCMilliseconds,
-        hearted: false,
-        favorite: false
+        modifiedDate: Date.now(),
       };
       this.props.updateNote(note);
-    } else {
-      let note = {
-        ...this.state.note,
-        createdDate: date.getUTCMilliseconds,
-        modifiedDate: date.getUTCMilliseconds,
-        hearted: false,
-        favorite: false
-      };
-      this.props.saveNote(note);
+      return;
     }
+    const savingNote = {
+      ...this.state.note,
+      createdDate: Date.now(),
+      modifiedDate: Date.now(),
+      hearted: false,
+      favorite: false
+    };
+    this.props.saveNote(savingNote);
   };
   onUndoClicked = () => {};
 }
@@ -142,7 +140,7 @@ mapDispatchToProps = dispatch => {
 
 function mapStateToProps(state) {
   return {
-    note: state.notes.load.loading
+    note12: state.notes.load.loading
   };
 }
-export default connect(mapStateToProps, mapDispatchToProps)(NoteDetail);
+export default connect(mapStateToProps, mapDispatchToProps)(EditNote);

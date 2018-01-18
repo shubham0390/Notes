@@ -66,8 +66,11 @@ class NoteDetail extends Component {
       </View>
     );
   };
-
-  onSaveClicked = () => {};
-  onUndoClicked = () => {};
 }
-export default NoteDetail;
+function mapStateToProps(state, ownProps) {
+ const note =  state.notes.data.find(item => {return item.id === ownProps.param.id});
+  return {
+    note: note
+  };
+}
+export default connect(mapStateToProps)(NoteDetail);

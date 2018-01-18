@@ -1,3 +1,3 @@
-import NoteDetail from "./EditNote";
+import EditNote from "./EditNote";
 
-export default NoteDetail;
+export default EditNote;

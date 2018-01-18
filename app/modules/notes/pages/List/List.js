@@ -19,8 +19,8 @@ import Menu from "../../components/Menu";
 import styles from "./style";
 import {
   fetchNotes,
+  toggleHeart,
   toggleFavorite,
-  toggleStar,
   deleteNote
 } from "../../duck/home";
 
@@ -31,9 +31,10 @@ class Home extends Component {
       refreshing: false,
       activeRow: null,
       isOpen: false,
-      selectedItem: "About",
-      favourite: false,
-      hearted: false
+      filter:{
+        favourite: false,
+        hearted: false
+      }
     };
   }
 
@@ -48,11 +49,7 @@ class Home extends Component {
       <Menu
         onCloseMenuClicked={() => this.toggle()}
         onFilterApply={(favourite, hearted) => {
-          this.setState({
-            favourite,
-            hearted
-          });
-          this.onFilterApply();
+          this.onFilterApply(favourite, hearted);
         }}
       />
     );
@@ -143,7 +140,7 @@ class Home extends Component {
       <Swipeout {...swipeSettings}>
         <NoteListItem
           onFavoriteButtonClicked={this.onFavoriteButtonClicked}
-          onStarButtonClicked={this.onStarButtonClicked}
+          onHeartButtonClicked={this.onHeartButtonClicked}
           onListItemClicked={this.onListItemClicked}
           note={info.item}
         />
@@ -174,19 +171,27 @@ class Home extends Component {
     this.setState({ isOpen });
   }
 
-  onFilterApply = () => {
+  onFilterApply = (favourite, hearted) => {
+
+    console.log("From Menu","favourite", favourite, "hearted", hearted);
+    console.log("state",this.state)
     this.setState({
-      isOpen: false
+      isOpen: false,
+      filter: {
+        hearted: hearted,
+        favourite: favourite
+      }
     });
-    this.props.fetchNotes(this.state.favourite, this.state.hearted);
+    console.log("state updated",this.state)
+    this.props.fetchNotes(favourite, hearted);
+  };
+
+  onHeartButtonClicked = note => {
+    this.props.toggleHeart(note);
   };
 
   onFavoriteButtonClicked = note => {
     this.props.toggleFavorite(note);
-  };
-
-  onStarButtonClicked = note => {
-    this.props.toggleStar(note);
   };
 
   onDeleteItem = note => {
@@ -194,7 +199,7 @@ class Home extends Component {
   };
 
   onListItemClicked = note => {
-    Actions.push("detail", { note });
+    Actions.push("detail", { param : note });
   };
 
   handleRefresh = () => {};
@@ -217,8 +222,8 @@ mapDispatchToProps = dispatch => {
   return {
     fetchNotes: (favourite, hearted) =>
       dispatch(fetchNotes(favourite, hearted)),
+    toggleHeart: note => dispatch(toggleHeart(note)),
     toggleFavorite: note => dispatch(toggleFavorite(note)),
-    toggleStar: note => dispatch(toggleStar(note)),
     deleteNote: note => dispatch(deleteNote(note))
   };
 };

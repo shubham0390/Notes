@@ -30,25 +30,25 @@ export default class NoteListItem extends Component {
           <View style={styles.statusContiner}>
             <TouchableNativeFeedback
               background={TouchableNativeFeedback.Ripple("#AAF", true)}
-              onPress={this.onStarButtonClicked}
+              onPress={this.onFavoriteButtonClicked}
             >
               <View style={styles.startActionStyle}>
                 <Icon
                   name="star"
                   size={24}
-                  color={this.getStarIconColor(this.props.note.starred)}
+                  color={this.getFavoriteIconColor(this.props.note.favorite)}
                 />
               </View>
             </TouchableNativeFeedback>
             <TouchableNativeFeedback
               background={TouchableNativeFeedback.Ripple("#AAF", true)}
-              onPress={this.onFavoriteButtonClicked}
+              onPress={this.onHeartButtonClicked}
             >
               <View style={styles.favoriteActionStyle}>
                 <Icon
                   name="favorite"
                   size={24}
-                  color={this.getFavoriteIconColor(this.props.note.favorite)}
+                  color={this.getHeartIconColor(this.props.note.hearted)}
                 />
               </View>
             </TouchableNativeFeedback>
@@ -58,28 +58,28 @@ export default class NoteListItem extends Component {
     );
   }
 
-  getFavoriteIconColor = favorite => {
-    if (favorite) {
+  getHeartIconColor = hearted => {
+    if (hearted) {
       return "#DB394F";
     } else {
       return "#F1F1F1";
     }
   };
 
-  getStarIconColor = star => {
-    if (star) {
+  getFavoriteIconColor = favorite => {
+    if (favorite) {
       return "#EDCF39";
     } else {
       return "#F1F1F1";
     }
   };
 
-  onFavoriteButtonClicked = () => {
-    this.props.onFavoriteButtonClicked(this.props.note);
+  onHeartButtonClicked = () => {
+    this.props.onHeartButtonClicked(this.props.note);
   };
 
-  onStarButtonClicked = () => {
-    this.props.onStarButtonClicked(this.props.note);
+  onFavoriteButtonClicked = () => {
+    this.props.onFavoriteButtonClicked(this.props.note);
   };
 
   onListItemClicked = () => {
