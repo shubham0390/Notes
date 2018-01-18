@@ -2,8 +2,8 @@ import { PENDING, FULFILLED, REJECTED } from "redux-promise-middleware";
 import update from "immutability-helper";
 import {
   getNotes,
-  updateNoteStartStatus,
   updateNoteFavoriteStatus,
+  updateNoteHeartStatus,
   deleteNoteWithId,
   updateNotes,
   saveNotes
@@ -24,8 +24,8 @@ const FETCH_NOTES = "com.notely.FETCH_NOTES";
 const DELETE_NOTE = "com.notely.DELETE_NOTE";
 const UPDATE_NOTE = "com.notely.UPDATE_NOTE";
 const SAVE_NOTE = "com.notely.SAVE_NOTE";
-const TOGGLE_STAR = "com.notely.TOGGLE_STAR";
 const TOGGLE_FAVORITE = "com.notely.TOGGLE_FAVORITE";
+const TOGGLE_HEART = "com.notely.TOGGLE_HEART";
 
 export default function reducer(state = initialState, action = {}) {
   switch (action.type) {
@@ -47,6 +47,20 @@ export default function reducer(state = initialState, action = {}) {
         load: { loading: { $set: false } },
         data: { $set: action.payload }
       });
+    case `${TOGGLE_HEART}_${FULFILLED}`:
+      return update(state, {
+        data: {
+          $apply: data =>
+            data.map(item => {
+              if (action.payload.id === item.id) {
+                let value = !item.hearted;
+                const updatedNote = { ...item, hearted: value };
+                return updatedNote;
+              }
+              return item;
+            })
+        }
+      });
     case `${TOGGLE_FAVORITE}_${FULFILLED}`:
       return update(state, {
         data: {
@@ -54,21 +68,7 @@ export default function reducer(state = initialState, action = {}) {
             data.map(item => {
               if (action.payload.id === item.id) {
                 let value = !item.favorite;
-                const updatedNote = { ...item, favorite: value };
-                return updatedNote;
-              }
-              return item;
-            })
-        }
-      });
-    case `${TOGGLE_STAR}_${FULFILLED}`:
-      return update(state, {
-        data: {
-          $apply: data =>
-            data.map(item => {
-              if (action.payload.id === item.id) {
-                let value = !item.starred;
-                return { ...item, starred: value };
+                return { ...item, favorite: value };
               }
               return item;
             })
@@ -83,7 +83,6 @@ export default function reducer(state = initialState, action = {}) {
         data: data =>
           data.map(item => {
             if (action.payload.id === item.id) {
-              let value = !item.starred;
               return action.payload;
             }
             return item;
@@ -91,7 +90,7 @@ export default function reducer(state = initialState, action = {}) {
       });
     case `${SAVE_NOTE}_${FULFILLED}`:
       return update(state, {
-        data: { $push: action.payload }
+        data: { $push: [action.payload] }
       });
       break;
     default:
@@ -100,18 +99,10 @@ export default function reducer(state = initialState, action = {}) {
 }
 
 export const fetchNotes = (favourite, hearted) => {
+  console.log("from home","favourite", favourite, "hearted", hearted);
   return {
     type: FETCH_NOTES,
     payload: getNotes(favourite, hearted).catch(error => {
-      return error;
-    })
-  };
-};
-
-export const toggleStar = note => {
-  return {
-    type: TOGGLE_STAR,
-    payload: updateNoteStartStatus(note).catch(error => {
       return error;
     })
   };
@@ -121,6 +112,15 @@ export const toggleFavorite = note => {
   return {
     type: TOGGLE_FAVORITE,
     payload: updateNoteFavoriteStatus(note).catch(error => {
+      return error;
+    })
+  };
+};
+
+export const toggleHeart = note => {
+  return {
+    type: TOGGLE_HEART,
+    payload: updateNoteHeartStatus(note).catch(error => {
       return error;
     })
   };
