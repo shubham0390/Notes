@@ -6,6 +6,7 @@ import {
   View,
   Text,
   TextInput,
+  ToastAndroid,
   TouchableNativeFeedback
 } from "react-native";
 
@@ -19,6 +20,21 @@ class EditNote extends Component {
       note: props.note ? props.note : { title: "", description: "" }
     };
   }
+  componentWillReceiveProps = nextProps => {
+    if (nextProps.savingState === this.props.savingState) {
+      return;
+    }
+
+    if (nextProps.savingState === "PENDING") {
+      ToastAndroid.show("Saving note", ToastAndroid.SHORT);
+      return
+    }
+
+    if (nextProps.savingState === "SUCCESSFUll") {
+      ToastAndroid.show("Save compelete", ToastAndroid.SHORT);
+      Actions.pop();
+    }
+  };
   render() {
     return (
       <View style={styles.container}>
@@ -112,7 +128,7 @@ class EditNote extends Component {
     if (this.props.note) {
       const note = {
         ...this.state.note,
-        modifiedDate: Date.now(),
+        modifiedDate: Date.now()
       };
       this.props.updateNote(note);
       return;
@@ -138,7 +154,7 @@ mapDispatchToProps = dispatch => {
 
 function mapStateToProps(state) {
   return {
-    note12: state.notes.load.loading
+    savingState: state.notes.save.state
   };
 }
 export default connect(mapStateToProps, mapDispatchToProps)(EditNote);

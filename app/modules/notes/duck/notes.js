@@ -16,7 +16,10 @@ const initialState = {
     error: "",
     currentPage: 0
   },
-  save: {}
+  save: {
+    state: "",
+    error: ""
+  }
 };
 
 // Fetch notes
@@ -30,9 +33,7 @@ const TOGGLE_HEART = "com.notely.TOGGLE_HEART";
 export default function reducer(state = initialState, action = {}) {
   switch (action.type) {
     case `${FETCH_NOTES}_${PENDING}`:
-      return update(state, {
-        load: { loading: { $set: true } }
-      });
+      return update(state, { load: { loading: { $set: true } } });
     case `${FETCH_NOTES}_${REJECTED}`:
       return update(state, {
         load: load =>
@@ -82,11 +83,31 @@ export default function reducer(state = initialState, action = {}) {
               return action.payload;
             }
             return item;
-          })
+          }),
+        save: { state: { $set: "SUCCESSFUll" } }
+      });
+    case `${UPDATE_NOTE}_${PENDING}`:
+      return update(state, { save: { state: { $set: "PENDING" } } });
+    case `${UPDATE_NOTE}_${REJECTED}`:
+      return update(state, {
+        save: {
+          state: { $set: "FAILED" },
+          error: { $set: "I am a error" }
+        }
       });
     case `${SAVE_NOTE}_${FULFILLED}`:
       return update(state, {
-        data: { $push: [action.payload] }
+        data: { $push: [action.payload] },
+        save: { state: { $set: "SUCCESSFUll" } }
+      });
+    case `${SAVE_NOTE}_${PENDING}`:
+      return update(state, { save: { state: { $set: "PENDING" } } });
+    case `${SAVE_NOTE}_${REJECTED}`:
+      return update(state, {
+        save: {
+          state: { $set: "FAILED" },
+          error: { $set: "I am a error" }
+        }
       });
     default:
       return state;
