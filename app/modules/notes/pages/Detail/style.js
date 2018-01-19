@@ -1,24 +1,24 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#FFFFFF"
+    backgroundColor: '#FFFFFF'
   },
 
   toolbar: {
     height: 48,
     paddingLeft: 16,
     paddingTop: 16,
-    flexDirection: "row",
-    justifyContent: "space-between",
-    alignItems: "center",
-    backgroundColor: "#F5F5F5"
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    backgroundColor: '#F5F5F5'
   },
 
   toolbarActionButtonContainer: {
-    flexDirection: "row",
-    alignItems: "center"
+    flexDirection: 'row',
+    alignItems: 'center'
   },
 
   actionStyle: {
@@ -28,26 +28,26 @@ export default StyleSheet.create({
 
   actionText: {
     fontSize: 14,
-    color: "#585858"
+    color: '#585858'
   },
 
   titleContainer: {
     paddingHorizontal: 48,
-    backgroundColor: "#F5F5F5",
+    backgroundColor: '#F5F5F5',
     paddingBottom: 16
   },
 
   title: {
     fontSize: 24,
-    color: "#282F29",
+    color: '#282F29',
     lineHeight: 30,
-    fontWeight: "bold"
+    fontWeight: 'bold'
   },
 
   date: {
     fontSize: 12,
     marginTop: 4,
-    color: "#CBCBCB"
+    color: '#CBCBCB'
   },
 
   contentContainer: {
@@ -57,6 +57,6 @@ export default StyleSheet.create({
 
   description: {
     fontSize: 15,
-    color: "#7B7B7B"
+    color: '#7B7B7B'
   }
 });

@@ -1,3 +1,3 @@
-import NoteListItem from "./NoteListItem";
+import NoteListItem from './NoteListItem';
 
 export default NoteListItem;

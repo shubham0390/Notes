@@ -1,23 +1,17 @@
-import React, { Component } from "react";
-import { connect } from "react-redux";
-import Icon from "react-native-vector-icons/MaterialIcons";
-import { Actions } from "react-native-router-flux";
-import {
-  View,
-  Text,
-  TextInput,
-  ToastAndroid,
-  TouchableNativeFeedback
-} from "react-native";
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import { Actions } from 'react-native-router-flux';
+import { View, Text, TextInput, ToastAndroid, TouchableNativeFeedback } from 'react-native';
 
-import styles from "./style";
-import { saveNote, updateNote } from "../../duck/notes";
+import styles from './style';
+import { saveNote, updateNote } from '../../duck/notes';
 
 class EditNote extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      note: props.note ? props.note : { title: "", description: "" }
+      note: props.note ? props.note : { title: '', description: '' }
     };
   }
   componentWillReceiveProps = nextProps => {
@@ -25,13 +19,13 @@ class EditNote extends Component {
       return;
     }
 
-    if (nextProps.savingState === "PENDING") {
-      ToastAndroid.show("Saving note", ToastAndroid.SHORT);
-      return
+    if (nextProps.savingState === 'PENDING') {
+      ToastAndroid.show('Saving note', ToastAndroid.SHORT);
+      return;
     }
 
-    if (nextProps.savingState === "SUCCESSFUll") {
-      ToastAndroid.show("Save compelete", ToastAndroid.SHORT);
+    if (nextProps.savingState === 'SUCCESSFUll') {
+      ToastAndroid.show('Save compelete', ToastAndroid.SHORT);
       Actions.pop();
     }
   };
@@ -48,7 +42,7 @@ class EditNote extends Component {
     return (
       <View style={styles.toolbar}>
         <TouchableNativeFeedback
-          background={TouchableNativeFeedback.Ripple("#AAF", true)}
+          background={TouchableNativeFeedback.Ripple('#AAF', true)}
           onPress={() => {
             Actions.pop();
           }}
@@ -59,7 +53,7 @@ class EditNote extends Component {
         </TouchableNativeFeedback>
         <View style={styles.toolbarActionButtonContainer}>
           <TouchableNativeFeedback
-            background={TouchableNativeFeedback.Ripple("#AAF", true)}
+            background={TouchableNativeFeedback.Ripple('#AAF', true)}
             onPress={this.onUndoClicked}
           >
             <View style={styles.actionStyle}>
@@ -67,7 +61,7 @@ class EditNote extends Component {
             </View>
           </TouchableNativeFeedback>
           <TouchableNativeFeedback
-            background={TouchableNativeFeedback.Ripple("#AAF", true)}
+            background={TouchableNativeFeedback.Ripple('#AAF', true)}
             onPress={this.onSaveClicked}
           >
             <View style={styles.actionStyle}>

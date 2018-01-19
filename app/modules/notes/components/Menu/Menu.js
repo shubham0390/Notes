@@ -1,11 +1,7 @@
-import React from "react";
-import {
-  View,
-  Text,
-  TouchableNativeFeedback
-} from "react-native";
-import Icon from "react-native-vector-icons/MaterialIcons";
-import styles from "./style";
+import React from 'react';
+import { View, Text, TouchableNativeFeedback } from 'react-native';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import styles from './style';
 
 export default class Menu extends React.PureComponent {
   constructor(props) {
@@ -20,33 +16,22 @@ export default class Menu extends React.PureComponent {
       <View style={styles.container}>
         <View style={styles.menu}>
           <View style={styles.titleContaier}>
-            <Text style={{ color: "#FFFFFF" }}>Filter</Text>
+            <Text style={{ color: '#FFFFFF' }}>Filter</Text>
             <TouchableNativeFeedback
               onPress={() => this.props.onCloseMenuClicked()}
-              background={TouchableNativeFeedback.Ripple("#AAF", true)}
+              background={TouchableNativeFeedback.Ripple('#AAF', true)}
             >
-              <Icon
-                style={styles.filterIcon}
-                name="clear"
-                size={24}
-                color="#FFFFFF"
-              />
+              <Icon style={styles.filterIcon} name="clear" size={24} color="#FFFFFF" />
             </TouchableNativeFeedback>
           </View>
 
-          {this.renderMenuRow(
-            "Hearted",
-            this.getSelectedColor(this.state.Hearted)
-          )}
-          {this.renderMenuRow(
-            "Favourite",
-            this.getSelectedColor(this.state.Favourite)
-          )}
+          {this.renderMenuRow('Hearted', this.getSelectedColor(this.state.Hearted))}
+          {this.renderMenuRow('Favourite', this.getSelectedColor(this.state.Favourite))}
         </View>
         <View style={styles.actionButtonContainer}>
           <TouchableNativeFeedback
             onPress={this.onFilterApply}
-            background={TouchableNativeFeedback.Ripple("#AAF", true)}
+            background={TouchableNativeFeedback.Ripple('#AAF', true)}
           >
             <Text style={styles.actionButton}>APPLY</Text>
           </TouchableNativeFeedback>
@@ -59,7 +44,7 @@ export default class Menu extends React.PureComponent {
     return (
       <TouchableNativeFeedback
         onPress={() => this.onItemSelected(name)}
-        background={TouchableNativeFeedback.Ripple("#AAF", true)}
+        background={TouchableNativeFeedback.Ripple('#AAF', true)}
       >
         <View style={styles.item}>
           <Text style={{ color }}>{name}</Text>
@@ -71,10 +56,9 @@ export default class Menu extends React.PureComponent {
 
   getSelectedColor = isSelected => {
     if (isSelected) {
-      return "#89D7BA";
+      return '#89D7BA';
     }
-      return "#DDDDDD";
-
+    return '#DDDDDD';
   };
 
   onFilterApply = () => {

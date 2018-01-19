@@ -1,3 +1,3 @@
-import NoteDetail from "./NoteDetail";
+import NoteDetail from './NoteDetail';
 
 export default NoteDetail;

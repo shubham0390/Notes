@@ -1,15 +1,10 @@
-import React, { Component } from "react";
-import { connect } from "react-redux";
-import Icon from "react-native-vector-icons/MaterialIcons";
-import { Actions } from "react-native-router-flux";
-import {
-  View,
-  Text,
-  TouchableNativeFeedback
-} from "react-native";
-import { getDisplaybleDate } from "../../../../utils/dateUtils";
-import styles from "./style";
-
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import { Actions } from 'react-native-router-flux';
+import { View, Text, TouchableNativeFeedback } from 'react-native';
+import { getDisplaybleDate } from '../../../../utils/dateUtils';
+import styles from './style';
 
 class NoteDetail extends Component {
   render() {
@@ -26,7 +21,7 @@ class NoteDetail extends Component {
       <View>
         <View style={styles.toolbar}>
           <TouchableNativeFeedback
-            background={TouchableNativeFeedback.Ripple("#AAF", true)}
+            background={TouchableNativeFeedback.Ripple('#AAF', true)}
             onPress={() => {
               Actions.pop();
             }}
@@ -37,9 +32,9 @@ class NoteDetail extends Component {
           </TouchableNativeFeedback>
           <View style={styles.toolbarActionButtonContainer}>
             <TouchableNativeFeedback
-              background={TouchableNativeFeedback.Ripple("#AAF", true)}
+              background={TouchableNativeFeedback.Ripple('#AAF', true)}
               onPress={() => {
-                Actions.push("edit", { note: this.props.note });
+                Actions.push('edit', { note: this.props.note });
               }}
             >
               <View style={styles.actionStyle}>
@@ -51,7 +46,7 @@ class NoteDetail extends Component {
         <View style={styles.titleContainer}>
           <Text style={styles.title}>{this.props.note.title}</Text>
           <Text style={styles.date}>
-            {`Last updated: ${  getDisplaybleDate(this.props.note.modifiedDate)}`}
+            {`Last updated: ${getDisplaybleDate(this.props.note.modifiedDate)}`}
           </Text>
         </View>
       </View>
@@ -67,7 +62,9 @@ class NoteDetail extends Component {
   };
 }
 function mapStateToProps(state, ownProps) {
- const note =  state.notes.data.find(item => {return item.id === ownProps.param.id});
+  const note = state.notes.data.find(item => {
+    return item.id === ownProps.param.id;
+  });
   return {
     note
   };

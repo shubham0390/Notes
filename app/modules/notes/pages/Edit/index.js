@@ -1,3 +1,3 @@
-import EditNote from "./EditNote";
+import EditNote from './EditNote';
 
 export default EditNote;

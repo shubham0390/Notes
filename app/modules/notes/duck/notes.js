@@ -1,5 +1,5 @@
-import { PENDING, FULFILLED, REJECTED } from "redux-promise-middleware";
-import update from "immutability-helper";
+import { PENDING, FULFILLED, REJECTED } from 'redux-promise-middleware';
+import update from 'immutability-helper';
 import {
   getNotes,
   updateNoteFavoriteStatus,
@@ -7,28 +7,28 @@ import {
   deleteNoteWithId,
   updateNotes,
   saveNotes
-} from "../../../services/noteService";
+} from '../../../services/noteService';
 
 const initialState = {
   data: [],
   load: {
     loading: false,
-    error: "",
+    error: '',
     currentPage: 0
   },
   save: {
-    state: "",
-    error: ""
+    state: '',
+    error: ''
   }
 };
 
 // Fetch notes
-const FETCH_NOTES = "com.notely.FETCH_NOTES";
-const DELETE_NOTE = "com.notely.DELETE_NOTE";
-const UPDATE_NOTE = "com.notely.UPDATE_NOTE";
-const SAVE_NOTE = "com.notely.SAVE_NOTE";
-const TOGGLE_FAVORITE = "com.notely.TOGGLE_FAVORITE";
-const TOGGLE_HEART = "com.notely.TOGGLE_HEART";
+const FETCH_NOTES = 'com.notely.FETCH_NOTES';
+const DELETE_NOTE = 'com.notely.DELETE_NOTE';
+const UPDATE_NOTE = 'com.notely.UPDATE_NOTE';
+const SAVE_NOTE = 'com.notely.SAVE_NOTE';
+const TOGGLE_FAVORITE = 'com.notely.TOGGLE_FAVORITE';
+const TOGGLE_HEART = 'com.notely.TOGGLE_HEART';
 
 export default function reducer(state = initialState, action = {}) {
   switch (action.type) {
@@ -36,8 +36,7 @@ export default function reducer(state = initialState, action = {}) {
       return update(state, { load: { loading: { $set: true } } });
     case `${FETCH_NOTES}_${REJECTED}`:
       return update(state, {
-        load: load =>
-          update(load, { loading: { $set: false }, error: "I am a error" })
+        load: load => update(load, { loading: { $set: false }, error: 'I am a error' })
       });
     case `${FETCH_NOTES}_${FULFILLED}`:
       return update(state, {
@@ -84,29 +83,29 @@ export default function reducer(state = initialState, action = {}) {
             }
             return item;
           }),
-        save: { state: { $set: "SUCCESSFUll" } }
+        save: { state: { $set: 'SUCCESSFUll' } }
       });
     case `${UPDATE_NOTE}_${PENDING}`:
-      return update(state, { save: { state: { $set: "PENDING" } } });
+      return update(state, { save: { state: { $set: 'PENDING' } } });
     case `${UPDATE_NOTE}_${REJECTED}`:
       return update(state, {
         save: {
-          state: { $set: "FAILED" },
-          error: { $set: "I am a error" }
+          state: { $set: 'FAILED' },
+          error: { $set: 'I am a error' }
         }
       });
     case `${SAVE_NOTE}_${FULFILLED}`:
       return update(state, {
         data: { $push: [action.payload] },
-        save: { state: { $set: "SUCCESSFUll" } }
+        save: { state: { $set: 'SUCCESSFUll' } }
       });
     case `${SAVE_NOTE}_${PENDING}`:
-      return update(state, { save: { state: { $set: "PENDING" } } });
+      return update(state, { save: { state: { $set: 'PENDING' } } });
     case `${SAVE_NOTE}_${REJECTED}`:
       return update(state, {
         save: {
-          state: { $set: "FAILED" },
-          error: { $set: "I am a error" }
+          state: { $set: 'FAILED' },
+          error: { $set: 'I am a error' }
         }
       });
     default:

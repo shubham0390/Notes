@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 import {
   View,
   Text,
@@ -6,21 +6,16 @@ import {
   TouchableNativeFeedback,
   FlatList,
   InteractionManager
-} from "react-native";
-import { connect } from "react-redux";
-import { Actions } from "react-native-router-flux";
-import Icon from "react-native-vector-icons/MaterialIcons";
-import Swipeout from "react-native-swipeout";
-import SideMenu from "react-native-side-menu";
-import NoteListItem from "../../components/NoteListItem";
-import Menu from "../../components/Menu";
-import styles from "./style";
-import {
-  fetchNotes,
-  toggleHeart,
-  toggleFavorite,
-  deleteNote
-} from "../../duck/notes";
+} from 'react-native';
+import { connect } from 'react-redux';
+import { Actions } from 'react-native-router-flux';
+import Icon from 'react-native-vector-icons/MaterialIcons';
+import Swipeout from 'react-native-swipeout';
+import SideMenu from 'react-native-side-menu';
+import NoteListItem from '../../components/NoteListItem';
+import Menu from '../../components/Menu';
+import styles from './style';
+import { fetchNotes, toggleHeart, toggleFavorite, deleteNote } from '../../duck/notes';
 
 class NoteListComponent extends Component {
   constructor(props) {
@@ -29,6 +24,8 @@ class NoteListComponent extends Component {
       refreshing: false,
       activeRow: null,
       isOpen: false,
+      favourite: false,
+      hearted: false
     };
   }
 
@@ -71,7 +68,7 @@ class NoteListComponent extends Component {
         <Text style={styles.title}> Notely</Text>
         <View style={styles.toolbarActionButtonContainer}>
           <TouchableNativeFeedback
-            background={TouchableNativeFeedback.Ripple("#AAF", true)}
+            background={TouchableNativeFeedback.Ripple('#AAF', true)}
             onPress={() => this.toggle()}
           >
             <View style={styles.actionStyle}>
@@ -80,9 +77,9 @@ class NoteListComponent extends Component {
           </TouchableNativeFeedback>
 
           <TouchableNativeFeedback
-            background={TouchableNativeFeedback.Ripple("#AAF", true)}
+            background={TouchableNativeFeedback.Ripple('#AAF', true)}
             onPress={() => {
-              Actions.push("edit");
+              Actions.push('edit');
             }}
           >
             <View style={styles.actionStyle}>
@@ -114,15 +111,15 @@ class NoteListComponent extends Component {
   renserNoteRowItem = info => {
     const swipeSettings = {
       autoClose: true,
-      backgroundColor: "#FFFFFF",
+      backgroundColor: '#FFFFFF',
       close: info.item.noteId !== this.state.activeRow,
-      onClose: () => this.onSwipeClose(info.item,),
+      onClose: () => this.onSwipeClose(info.item),
       onOpen: () => this.onSwipeOpen(info.item),
       right: [
         {
           onPress: () => this.onDeleteItem(info.item),
-          text: "Delete",
-          type: "delete"
+          text: 'Delete',
+          type: 'delete'
         }
       ],
       rowId: info.index,
@@ -166,6 +163,8 @@ class NoteListComponent extends Component {
   onFilterApply = (favourite, hearted) => {
     this.setState({
       isOpen: false,
+      favourite,
+      hearted
     });
     this.props.fetchNotes(favourite, hearted);
   };
@@ -183,20 +182,19 @@ class NoteListComponent extends Component {
   };
 
   onListItemClicked = note => {
-    Actions.push("detail", { param : note });
+    Actions.push('detail', { param: note });
   };
 
-  handleRefresh = () => {};
+  handleRefresh = () => {
+    this.props.fetchNotes(favourite, hearted);
+  };
 
   onSwipeOpen(item) {
     this.setState({ activeRow: item.noteId });
   }
 
   onSwipeClose(item) {
-    if (
-      item.noteId === this.state.activeRow &&
-      typeof direction !== "undefined"
-    ) {
+    if (item.noteId === this.state.activeRow && typeof direction !== 'undefined') {
       this.setState({ activeRow: null });
     }
   }
@@ -204,8 +202,7 @@ class NoteListComponent extends Component {
 
 mapDispatchToProps = dispatch => {
   return {
-    fetchNotes: (favourite, hearted) =>
-      dispatch(fetchNotes(favourite, hearted)),
+    fetchNotes: (favourite, hearted) => dispatch(fetchNotes(favourite, hearted)),
     toggleHeart: note => dispatch(toggleHeart(note)),
     toggleFavorite: note => dispatch(toggleFavorite(note)),
     deleteNote: note => dispatch(deleteNote(note))

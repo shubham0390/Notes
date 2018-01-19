@@ -1,10 +1,10 @@
 // app/index.js
 
-import React, { Component } from "react";
-import {  Router } from "react-native-router-flux";
-import { connect, Provider } from "react-redux";
-import { Scenes } from "./router";
-import configureStore from "./store";
+import React, { Component } from 'react';
+import { Router } from 'react-native-router-flux';
+import { connect, Provider } from 'react-redux';
+import { Scenes } from './router';
+import configureStore from './store';
 
 const store = configureStore();
 const RouterWithRedux = connect()(Router);

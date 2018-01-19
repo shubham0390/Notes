@@ -1,8 +1,8 @@
 // store/configureStore.js
 
-import { createStore, applyMiddleware, compose } from "redux";
-import promiseMiddleware from "redux-promise-middleware";
-import reducers from "../reducers/index";
+import { createStore, applyMiddleware, compose } from 'redux';
+import promiseMiddleware from 'redux-promise-middleware';
+import reducers from '../reducers/index';
 
 const middlewares = [promiseMiddleware()];
 
@@ -17,7 +17,7 @@ const noteStore = (configureStore = () => {
 
   if (module.hot) {
     module.hot.accept(() => {
-      const nextRootReducer = require("../reducers/index").default;
+      const nextRootReducer = require('../reducers/index').default;
       store.replaceReducer(nextRootReducer);
     });
   }

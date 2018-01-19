@@ -1,9 +1,9 @@
-import { Actions, Scene } from "react-native-router-flux";
-import React from "react";
-import Landing from "./modules/splash";
-import List from "./modules/notes";
-import EditNote from "./modules/notes/pages/Edit";
-import NoteDetail from "./modules/notes/pages/Detail";
+import { Actions, Scene } from 'react-native-router-flux';
+import React from 'react';
+import Landing from './modules/splash';
+import List from './modules/notes';
+import EditNote from './modules/notes/pages/Edit';
+import NoteDetail from './modules/notes/pages/Detail';
 
 export const navigate = () => {};
 

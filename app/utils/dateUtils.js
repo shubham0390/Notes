@@ -1,26 +1,26 @@
 export const monthNames = [
-  "Jan",
-  "Feb",
-  "Mar",
-  "Apr",
-  "May",
-  "Jun",
-  "Jul",
-  "Aug",
-  "Sep",
-  "Oct",
-  "Nov",
-  "Dec"
+  'Jan',
+  'Feb',
+  'Mar',
+  'Apr',
+  'May',
+  'Jun',
+  'Jul',
+  'Aug',
+  'Sep',
+  'Oct',
+  'Nov',
+  'Dec'
 ];
 
 export const dayName = [
-  "Monday",
-  "Tuesday",
-  "Wedensday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-  "Sunday"
+  'Monday',
+  'Tuesday',
+  'Wedensday',
+  'Thursday',
+  'Friday',
+  'Saturday',
+  'Sunday'
 ];
 
 export const getDisplaybleDate = date => {
@@ -28,8 +28,8 @@ export const getDisplaybleDate = date => {
 
   const noteDate = new Date(0);
   noteDate.setUTCSeconds(date);
-  let prifix = "";
-  let postfix = "";
+  let prifix = '';
+  let postfix = '';
   if (noteDate.getFullYear() !== todayDate.getFullYear()) {
     prifix = monthNames[noteDate.getMonth()];
   } else if (noteDate.getMonth() !== todayDate.getMonth()) {
@@ -38,9 +38,9 @@ export const getDisplaybleDate = date => {
     prifix = monthNames[noteDate.getDay()];
   }
   if (noteDate.getHours() > 12) {
-    postfix = " PM";
+    postfix = ' PM';
   } else {
-    postfix = " AM";
+    postfix = ' AM';
   }
-  return `${prifix  } at ${  noteDate.toLocaleTimeString()  }${postfix}`;
+  return `${prifix} at ${noteDate.toLocaleTimeString()}${postfix}`;
 };

@@ -1,3 +1,3 @@
-import Splash from "./pages/Splash";
+import Splash from './pages/Splash';
 
 export default Splash;
