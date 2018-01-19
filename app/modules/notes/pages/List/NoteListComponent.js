@@ -186,7 +186,7 @@ class NoteListComponent extends Component {
   };
 
   handleRefresh = () => {
-    this.props.fetchNotes(favourite, hearted);
+    this.props.fetchNotes(this.state.favourite, this.state.hearted);
   };
 
   onSwipeOpen(item) {
